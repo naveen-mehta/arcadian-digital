@@ -18,4 +18,6 @@ export const NavMenu = styled.div`
 `
 export const NavLink = styled.div`
     padding-left: 94px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
 `
