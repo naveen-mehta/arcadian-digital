@@ -1,12 +1,13 @@
 import React from 'react'
 import { Nav, NavLogo, NavMenu, NavLink } from './NavbarElements'
+import logo from '../../images/logo.svg'
 
 const Navbar = () => {
     return (
         <div>
             <Nav>
                 <NavLogo to="/">
-                    <img src="" alt=""/>
+                    <img src={logo} alt=""/>
                 </NavLogo>
                 <NavMenu>
                     <NavLink>
