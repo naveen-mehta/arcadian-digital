@@ -1,6 +1,5 @@
 import React from 'react'
-import HeroImage from '../../images/hero.png'
-import { HeroContainer, HeroText } from './HeroElements'
+import { HeroContainer, HeroText, PhoneMockupOne, PhoneMockupTwo } from './HeroElements'
 
 const Hero = () => {
     return (
@@ -12,8 +11,9 @@ const Hero = () => {
                     <h1>you can order form Bella Onojie</h1>
                     <h4>Download the bella onoje’s food app now on</h4>
                 </HeroText>
-            </HeroContainer>
-            
+                <PhoneMockupOne />
+                <PhoneMockupTwo />
+            </HeroContainer>     
         </div>
     )
 }
