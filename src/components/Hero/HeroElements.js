@@ -11,6 +11,10 @@ export const HeroContainer = styled.div`
     height: 100%;
     background-repeat: no-repeat;
     left: 0px;
+    
+    @media screen and (max-width: 480px) {
+       background-image: none;
+    }
 `
 
 export const HeroText = styled.div`
@@ -18,9 +22,20 @@ export const HeroText = styled.div`
         font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         color: #F6F6F6;
+        font-style: normal;
+        font-weight: bold;
         display: flex;
         justify-content: center;
+
+        @media screen and (max-width: 480px) {
+           font-size: 20px;   
+           color: #737373;
+           left: 63%;
+           top: 10%;
+           position: absolute;
+        }
     }
+
     h1 {
         font-family: 'Poppins', sans-serif;
         font-size: 58px;
@@ -30,7 +45,23 @@ export const HeroText = styled.div`
         text-align: center;
         margin: 0 15%;
         line-height: 80px;
+
+        @media screen and (max-width: 480px) {
+           font-family: 'Montserrat', sans-serif;
+           font-size: 50px;   
+           color: #252B42;
+           font-weight: bold;
+           line-height: 58px; 
+           letter-spacing: 0.2px;
+           top: 20%;
+           left: 5%;
+           width: 130%;
+           position: absolute; 
+           color: #252B42;
+           margin: 0;
+        }
     }
+
     h4 {
         font-family: 'Montserrat', sans-serif;
         font-size: 24px;
@@ -72,7 +103,7 @@ export const PhoneMockupTwo = styled.div`
 export const HorizontalRule = styled.div`
     position: absolute;
     width: 884px;
-    left: 278px;
+    left: 23%;
     top: 180%;
     border: 1px solid #E4E4E4;
 `

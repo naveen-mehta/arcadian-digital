@@ -6,6 +6,7 @@ export const Nav = styled.nav`
     display: flex;
     align-items: center; 
     justify-content: flex-end;
+
 `
 
 export const NavLogo = styled(Link)`
@@ -18,7 +19,13 @@ export const NavLogo = styled(Link)`
     width: 246px;
     height: 101.76px;
     left: 70px;
-    /* top: calc(50% - 101.76px/2 - 1px); */
+
+    @media screen and (max-width: 480px) {
+        width: 104px;
+        height: 51px;
+        top: 3%;
+    }
+
 `
 export const NavMenu = styled.div`
     display: flex;
@@ -30,7 +37,11 @@ export const NavMenu = styled.div`
     width: 580px;
     height: 48px;
     right: 40px;
-    /* top: calc(50% - 48px/2 - 1px); */
+
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
+
 `
 export const NavLink = styled.div`
     padding-left: 94px;
