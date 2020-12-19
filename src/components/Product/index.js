@@ -5,7 +5,11 @@ import {
     CreateAccountText, 
     PhoneMockupThree, 
     PhoneMockupFour, 
-    ExploreVarietiesContainer, ExploreVarietiesText 
+    ExploreVarietiesContainer, 
+    ExploreVarietiesText, 
+    CheckoutContainer, 
+    CheckoutText,
+    PhoneMockupFive 
 } from './ProductElements'
 
 const ProductOverview = () => {
@@ -14,6 +18,7 @@ const ProductOverview = () => {
             <ProductHeadline>
                 <h1>How the app works</h1>
             </ProductHeadline>
+            
             <CreateAccountContainer>
                 <PhoneMockupThree />
                 <CreateAccountText>
@@ -43,6 +48,21 @@ const ProductOverview = () => {
                 </ExploreVarietiesText>
                 <PhoneMockupFour />
             </ExploreVarietiesContainer>
+
+            <CheckoutContainer>
+                <PhoneMockupFive />
+                <CheckoutText>
+                    <h3>
+                        Checkout
+                    </h3>
+                    <h2>
+                        When you done check out and get it delivered.
+                    </h2>
+                    <h4>
+                        When you done check out and get it delivered with ease.
+                    </h4>
+                </CheckoutText>
+            </CheckoutContainer>
         </div>
     )
 }
