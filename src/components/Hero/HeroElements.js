@@ -22,7 +22,7 @@ export const HeroText = styled.div`
         justify-content: center;
     }
     h1 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-size: 58px;
         color: #F6F6F6;
         display: flex;
@@ -34,8 +34,13 @@ export const HeroText = styled.div`
     h4 {
         font-family: 'Montserrat', sans-serif;
         font-size: 24px;
-        color: #F6F6F6;
+        line-height: 38px;
+        font-style: normal;
+        font-weight: 500;
+        color: #F7F7F7;
         display: flex;
+        letter-spacing: 0.2px;
+        text-align: center;
         justify-content: center;
     }
 `
