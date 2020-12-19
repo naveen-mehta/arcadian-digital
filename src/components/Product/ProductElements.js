@@ -53,7 +53,6 @@ export const CreateAccountText = styled.div`
             width: 200%;
             position: absolute;
             left: -50%;
-            top: -10%;
         }
     }
     h2 {
@@ -70,7 +69,7 @@ export const CreateAccountText = styled.div`
             width: 300%;
             position: absolute;
             left: -100%;
-            top: 20%;
+            margin-top: 80%;
             text-align: center;
             line-height: 75px;
         }
@@ -83,6 +82,16 @@ export const CreateAccountText = styled.div`
         line-height: 38px;
         font-weight: 500;
         letter-spacing: 0.2px;
+
+        @media screen and (max-width: 480px) {
+            font-size: 35px;
+            width: 200%;
+            margin-top: 315%;
+            position: absolute;
+            left: -50%;
+            text-align: center;
+            line-height: 55px;
+        }
     }
 
 `
@@ -97,6 +106,12 @@ export const PhoneMockupThree = styled.div`
     position: absolute;
     top: 220%;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+
+    @media screen and (max-width: 480px) {
+        width: 200%;
+        top: 340%;
+        left: -17%;      
+    }
 `
 
 export const ExploreVarietiesContainer = styled.div`
@@ -118,6 +133,14 @@ export const ExploreVarietiesText = styled.div`
         line-height: 36px;
         font-weight: bold;
         letter-spacing: 0.1px;
+
+        @media screen and (max-width: 480px) {
+            font-size: 35px;
+            width: 200%;
+            position: absolute;
+            left: 48%;
+            top: 105%;
+        }
     }
     h2 {
         font-family: 'Montserrat', sans-serif;
