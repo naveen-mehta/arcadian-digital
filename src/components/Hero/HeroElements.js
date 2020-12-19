@@ -100,6 +100,12 @@ export const PhoneMockupOne = styled.div`
     top: 45%;
     left: 20%;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+
+    @media screen and (max-width: 480px) {
+        top: 90%;
+        width: 152%;
+        left: -27%;
+    }
 `
 
 export const PhoneMockupTwo = styled.div`
@@ -111,6 +117,12 @@ export const PhoneMockupTwo = styled.div`
     height: 100%;
     left: 47.5%;
     position: relative;
+
+    @media screen and (max-width: 480px) {
+        top: 121%;
+        width: 145%;
+        left: 67%;
+    }
 `
 
 export const HorizontalRule = styled.div`
