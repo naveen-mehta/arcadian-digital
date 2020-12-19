@@ -65,7 +65,7 @@ export const HorizontalRule = styled.div`
     position: absolute;
     width: 884px;
     left: 278px;
-    top: 170%;
+    top: 145%;
     border: 1px solid #E4E4E4;
 `
 
