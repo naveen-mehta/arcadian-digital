@@ -47,6 +47,14 @@ export const CreateAccountText = styled.div`
         line-height: 36px;
         font-weight: bold;
         letter-spacing: 0.1px;
+
+        @media screen and (max-width: 480px) {
+            font-size: 35px;
+            width: 200%;
+            position: absolute;
+            left: -50%;
+            top: -10%;
+        }
     }
     h2 {
         font-family: 'Montserrat', sans-serif;
@@ -56,6 +64,16 @@ export const CreateAccountText = styled.div`
         line-height: 57px;
         font-weight: bold;
         letter-spacing: 0.2px;
+
+        @media screen and (max-width: 480px) {
+            font-size: 55px;
+            width: 300%;
+            position: absolute;
+            left: -100%;
+            top: 20%;
+            text-align: center;
+            line-height: 75px;
+        }
     }
     h4 {
         font-family: 'Montserrat', sans-serif;
@@ -120,6 +138,7 @@ export const ExploreVarietiesText = styled.div`
         letter-spacing: 0.2px;
     }
 `
+
 export const PhoneMockupFour = styled.div`
     background-image: url(${PhoneImageFour});
     z-index: 1;   
@@ -173,6 +192,7 @@ export const CheckoutText = styled.div`
     }
 
 `
+
 export const PhoneMockupFive = styled.div`
     background-image: url(${PhoneImageFive});
     z-index: 1;   
