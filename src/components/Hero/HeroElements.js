@@ -28,7 +28,7 @@ export const HeroText = styled.div`
         display: flex;
         justify-content: center;
         text-align: center;
-        margin: 0 20%;
+        margin: 0 15%;
         line-height: 80px;
     }
     h4 {
@@ -74,6 +74,11 @@ export const HorizontalRule = styled.div`
     border: 1px solid #E4E4E4;
 `
 
+export const BtnContainer = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+`
+
 export const PlaystoreBtn = styled.button`
     background: #FA4A0C;
     box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
@@ -81,12 +86,35 @@ export const PlaystoreBtn = styled.button`
     display: flex; 
     flex-direction: column;
     align-items: center;
-    padding: 16px 0px;
-    margin: auto;
+    margin-left: 65%;
     width: 236px;
     height: 68px;
     justify-content: center;
     border: none;
+
+    h3 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+    }    
+`
+
+export const AppstoreBtn = styled.button`
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+    width: 236px;
+    height: 68px;
+    justify-content: center;
 
     h3 {
         font-family: Montserrat;
