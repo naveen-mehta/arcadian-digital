@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeroContainer, HeroText, PhoneMockupOne, PhoneMockupTwo } from './HeroElements'
+import { HeroContainer, HeroText, PhoneMockupOne, PhoneMockupTwo, HorizontalRule } from './HeroElements'
 
 const Hero = () => {
     return (
@@ -13,6 +13,7 @@ const Hero = () => {
                 </HeroText>
                 <PhoneMockupOne />
                 <PhoneMockupTwo />
+                <HorizontalRule />
             </HeroContainer>     
         </div>
     )
