@@ -7,9 +7,18 @@ export const FooterContainer = styled.div`
     align-items: center;
     width: 100%;
     left: 20%;
+
+    @media screen and (max-width: 480px) {
+        top: 990%;
+        width: 200%;
+    }
 `
 
-export const FooterLogo = styled.div`    
+export const FooterLogo = styled.div`
+
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
 `
 
 export const SocialMediaContainer = styled.div`

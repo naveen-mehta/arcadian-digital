@@ -10,6 +10,13 @@ export const DownloadContainer = styled.div`
     height: 100%;
     background-repeat: no-repeat;
     left: 0px;
+
+    @media screen and (max-width: 480px) {
+        background-image: none;
+        background-color: #252B42;
+        top: 870%;
+        width: 200%;
+    }
 `
 
 export const DownloadText = styled.div`
@@ -52,6 +59,10 @@ export const DownloadPlaystoreBtn = styled.button`
     height: 64px;
     justify-content: center;
     border: none;
+
+    @media screen and (max-width: 480px) {
+        margin-left: 40%;
+    }
 
     h3 {
         font-family: Montserrat;

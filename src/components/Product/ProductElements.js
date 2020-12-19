@@ -138,8 +138,8 @@ export const ExploreVarietiesText = styled.div`
             font-size: 35px;
             width: 200%;
             position: absolute;
-            left: 48%;
-            top: 105%;
+            left: 100%;
+            margin-top: 450%;
         }
     }
     h2 {
@@ -150,6 +150,16 @@ export const ExploreVarietiesText = styled.div`
         line-height: 57px;
         font-weight: bold;
         letter-spacing: 0.2px;
+
+        @media screen and (max-width: 480px) {
+            font-size: 55px;
+            width: 280%;
+            position: absolute;
+            left: 25%;
+            margin-top: 520%;
+            text-align: center;
+            line-height: 75px;
+        }
     }
     h4 {
         font-family: 'Montserrat', sans-serif;
@@ -159,6 +169,16 @@ export const ExploreVarietiesText = styled.div`
         line-height: 38px;
         font-weight: 500;
         letter-spacing: 0.2px;
+
+        @media screen and (max-width: 480px) {
+            font-size: 35px;
+            width: 200%;
+            position: absolute;
+            margin-top: 700%;
+            left: 70%;
+            text-align: center;
+            line-height: 55px;
+        }
     }
 `
 
@@ -173,6 +193,12 @@ export const PhoneMockupFour = styled.div`
     position: absolute;
     top: 325%;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+
+    @media screen and (max-width: 480px) {
+        width: 200%;
+        top: 530%;
+        left: -10%;      
+    }
 `
 
 export const CheckoutContainer = styled.div`
@@ -194,6 +220,14 @@ export const CheckoutText = styled.div`
         line-height: 36px;
         font-weight: bold;
         letter-spacing: 0.1px;
+
+        @media screen and (max-width: 480px) {
+            font-size: 35px;
+            width: 200%;
+            position: absolute;
+            left: 100%;
+            margin-top: 950%;
+        }
     }
     h2 {
         font-family: 'Montserrat', sans-serif;
@@ -203,6 +237,16 @@ export const CheckoutText = styled.div`
         line-height: 57px;
         font-weight: bold;
         letter-spacing: 0.2px;
+
+        @media screen and (max-width: 480px) {
+            font-size: 55px;
+            width: 280%;
+            position: absolute;
+            left: 25%;
+            margin-top: 1020%;
+            text-align: center;
+            line-height: 75px;
+        }
     }
     h4 {
         font-family: 'Montserrat', sans-serif;
@@ -212,6 +256,16 @@ export const CheckoutText = styled.div`
         line-height: 38px;
         font-weight: 500;
         letter-spacing: 0.2px;
+
+        @media screen and (max-width: 480px) {
+            font-size: 35px;
+            width: 200%;
+            position: absolute;
+            margin-top: 1200%;
+            left: 70%;
+            text-align: center;
+            line-height: 55px;
+        }
     }
 
 `
@@ -227,5 +281,11 @@ export const PhoneMockupFive = styled.div`
     position: absolute;
     top: 435%;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+
+    @media screen and (max-width: 480px) {
+        width: 200%;
+        top: 740%;
+        left: -10%;      
+    }
 `
 
