@@ -131,6 +131,12 @@ export const HorizontalRule = styled.div`
     left: 23%;
     top: 180%;
     border: 1px solid #E4E4E4;
+
+    @media screen and (max-width: 480px) {
+        top: 210%;
+        width: 150%;
+        left: 0;
+    }
 `
 
 export const BtnContainer = styled.div`
