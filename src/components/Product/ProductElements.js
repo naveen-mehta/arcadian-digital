@@ -12,7 +12,7 @@ export const ProductHeadline = styled.div`
         opacity: 0.8;
     }
     position: absolute;
-    top: 170%;
+    top: 208%;
     left: 35%;
 `
 
@@ -23,7 +23,7 @@ export const CreateAccountContainer = styled.div`
 
 export const CreateAccountText = styled.div`
     position: absolute;
-    top: 220%;
+    top: 265%;
     left: 51%;
     width: 40%;
 
@@ -65,7 +65,7 @@ export const PhoneMockupThree = styled.div`
     height: 125%;
     margin-left: 6%;
     position: absolute;
-    top: 180%;
+    top: 220%;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 `
 
@@ -76,7 +76,7 @@ export const ExploreVarietiesContainer = styled.div`
 
 export const ExploreVarietiesText = styled.div`
     position: absolute;
-    top: 325%;
+    top: 372%;
     left: 16%;
     width: 40%;
 
@@ -117,7 +117,7 @@ export const PhoneMockupFour = styled.div`
     height: 125%;
     left: 51%;
     position: absolute;
-    top: 285%;
+    top: 325%;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 `
 
@@ -128,7 +128,7 @@ export const CheckoutContainer = styled.div`
 
 export const CheckoutText = styled.div`
     position: absolute;
-    top: 425%;
+    top: 480%;
     left: 51%;
     width: 40%;
 
@@ -170,7 +170,7 @@ export const PhoneMockupFive = styled.div`
     height: 125%;
     margin-left: 6%;
     position: absolute;
-    top: 385%;
+    top: 435%;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 `
 

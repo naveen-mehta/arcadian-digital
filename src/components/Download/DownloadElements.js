@@ -5,7 +5,7 @@ export const DownloadContainer = styled.div`
     background-image: url(${DownloadImage});
     background-size: 100%;    
     position: absolute;
-    top: 520%;
+    top: 570%;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;

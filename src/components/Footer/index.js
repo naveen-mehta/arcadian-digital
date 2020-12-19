@@ -1,5 +1,11 @@
 import React from 'react'
-import { FooterContainer, FooterLogo, SocialMediaIcons, Copyright } from './FooterElements'
+import { 
+    FooterContainer, 
+    FooterLogo, 
+    SocialMediaContainer, 
+    SocialMediaLink, 
+    Copyright 
+} from './FooterElements'
 import logo from '../../images/logo.svg'
 import Twitter from '../../images/twitter.png'
 import Facebook from '../../images/facebook.png'
@@ -12,11 +18,17 @@ const Footer = () => {
                 <FooterLogo to="/">
                     <img src={logo} alt=""/>
                 </FooterLogo>
-                <SocialMediaIcons>
-                    <img src={Twitter} alt=""/>
-                    <img src={Facebook} alt=""/>
-                    <img src={Instagram} alt=""/>
-                </SocialMediaIcons>
+                <SocialMediaContainer>
+                    <SocialMediaLink>
+                        <img src={Twitter} alt=""/>
+                    </SocialMediaLink>
+                    <SocialMediaLink>
+                        <img src={Facebook} alt=""/>
+                    </SocialMediaLink>
+                    <SocialMediaLink>
+                        <img src={Instagram} alt=""/>
+                    </SocialMediaLink>
+                </SocialMediaContainer>
                 <Copyright>
                     Copyright 2020 Bella Onojie.com
                 </Copyright>
