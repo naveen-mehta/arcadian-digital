@@ -153,6 +153,13 @@ export const PlaystoreBtn = styled.button`
     top: 50%;
     left: 35%;
 
+    @media screen and (max-width: 480px) {
+        top: 65%;
+        width: 75%;
+        height: 11%;
+        left: 33%;
+    }
+
     h3 {
         font-family: Montserrat;
         font-style: normal;
@@ -161,6 +168,10 @@ export const PlaystoreBtn = styled.button`
         line-height: 36px;
         letter-spacing: 0.1px;
         color: #FFFFFF;
+
+        @media screen and (max-width: 480px) {
+            font-size: 32px;
+        }
     }    
 `
 
