@@ -14,6 +14,8 @@ export const HeroContainer = styled.div`
     
     @media screen and (max-width: 480px) {
        background-image: none;
+       left: 30%;
+       width: 400px;
     }
 `
 
@@ -30,9 +32,11 @@ export const HeroText = styled.div`
         @media screen and (max-width: 480px) {
            font-size: 20px;   
            color: #737373;
-           left: 63%;
+           margin-left: 79%;
            top: 10%;
            position: absolute;
+           width: 200px;
+           left: 0%;
         }
     }
 
@@ -54,7 +58,7 @@ export const HeroText = styled.div`
            line-height: 58px; 
            letter-spacing: 0.2px;
            top: 20%;
-           left: 5%;
+           left: 25%;
            width: 130%;
            position: absolute; 
            color: #252B42;
@@ -80,8 +84,8 @@ export const HeroText = styled.div`
            color: #737373;
            font-weight: 500;
            line-height: 48px; 
-           top: 45%;
-           left: 5%;
+           top: 50%;
+           left: 25%;
            width: 130%;
            position: absolute; 
            margin: 0;
@@ -120,8 +124,8 @@ export const PhoneMockupTwo = styled.div`
 
     @media screen and (max-width: 480px) {
         top: 121%;
-        width: 145%;
-        left: 67%;
+        width: 150%;
+        left: 85%;
     }
 `
 
@@ -134,7 +138,7 @@ export const HorizontalRule = styled.div`
 
     @media screen and (max-width: 480px) {
         top: 210%;
-        width: 150%;
+        width: 100%;
         left: 0;
     }
 `
@@ -160,10 +164,10 @@ export const PlaystoreBtn = styled.button`
     left: 35%;
 
     @media screen and (max-width: 480px) {
-        top: 65%;
+        top: 68%;
         width: 75%;
         height: 11%;
-        left: 33%;
+        left: 51%;
     }
 
     h3 {
@@ -198,10 +202,10 @@ export const AppstoreBtn = styled.button`
     left: 52%;
 
     @media screen and (max-width: 480px) {
-        top: 79%;
+        top: 81%;
         width: 75%;
         height: 11%;
-        left: 32%;
+        left: 50%;
         border: 1px solid #FA4A0C;
     }
 

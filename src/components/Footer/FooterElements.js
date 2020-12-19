@@ -5,7 +5,7 @@ export const FooterContainer = styled.div`
     top: 650%;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 60%;
     left: 20%;
 
     @media screen and (max-width: 480px) {

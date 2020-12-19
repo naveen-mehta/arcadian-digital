@@ -195,9 +195,9 @@ export const PhoneMockupFour = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        width: 200%;
+        width: 150%;
         top: 530%;
-        left: -10%;      
+        left: 10%;      
     }
 `
 
