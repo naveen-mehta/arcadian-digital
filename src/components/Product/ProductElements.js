@@ -14,6 +14,18 @@ export const ProductHeadline = styled.div`
     position: absolute;
     top: 208%;
     left: 35%;
+
+    @media screen and (max-width: 480px) {
+        top: 240%;
+        width: 110%; 
+        left: 28%;
+
+        h1 {
+            font-size: 36px;
+            letter-spacing: 0.2px;
+            opacity: 0.8;
+        }
+    }
 `
 
 export const CreateAccountContainer = styled.div`
