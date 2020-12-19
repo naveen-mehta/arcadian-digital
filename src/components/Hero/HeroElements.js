@@ -44,6 +44,7 @@ export const HeroText = styled.div`
         justify-content: center;
     }
 `
+
 export const PhoneMockupOne = styled.div`
     background-image: url(${PhoneImageOne});
     z-index: 1;   
@@ -55,6 +56,7 @@ export const PhoneMockupOne = styled.div`
     position: relative;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 `
+
 export const PhoneMockupTwo = styled.div`
     background-image: url(${PhoneImageTwo});
     background-size: 50%;    
