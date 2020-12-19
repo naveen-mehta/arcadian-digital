@@ -191,6 +191,14 @@ export const AppstoreBtn = styled.button`
     top: 50%;
     left: 52%;
 
+    @media screen and (max-width: 480px) {
+        top: 79%;
+        width: 75%;
+        height: 11%;
+        left: 32%;
+        border: 1px solid #FA4A0C;
+    }
+
     h3 {
         font-family: Montserrat;
         font-style: normal;
@@ -199,5 +207,10 @@ export const AppstoreBtn = styled.button`
         line-height: 36px;
         letter-spacing: 0.1px;
         color: #FFFFFF;
+
+        @media screen and (max-width: 480px) {
+            font-size: 32px;
+            color: #FA4A0C;
+        }
     }    
 `
