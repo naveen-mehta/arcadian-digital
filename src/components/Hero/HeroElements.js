@@ -73,6 +73,19 @@ export const HeroText = styled.div`
         letter-spacing: 0.2px;
         text-align: center;
         justify-content: center;
+
+        @media screen and (max-width: 480px) {
+           font-family: 'Montserrat', sans-serif;
+           font-size: 34px;   
+           color: #737373;
+           font-weight: 500;
+           line-height: 48px; 
+           top: 45%;
+           left: 5%;
+           width: 130%;
+           position: absolute; 
+           margin: 0;
+        }
     }
 `
 
