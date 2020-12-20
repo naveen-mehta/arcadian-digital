@@ -26,6 +26,12 @@ export const ProductHeadline = styled.div`
             opacity: 0.8;
         }
     }
+    @media screen and (max-width: 400px) {
+        h1 {
+            font-size: 28px;
+        }
+        top: 247%;
+    }
 `
 
 export const CreateAccountContainer = styled.div`
@@ -54,6 +60,9 @@ export const CreateAccountText = styled.div`
             position: absolute;
             left: -46%;
         }
+        @media screen and (max-width: 400px) {
+            font-size: 27px;
+        }
     }
     h2 {
         font-family: 'Montserrat', sans-serif;
@@ -72,6 +81,12 @@ export const CreateAccountText = styled.div`
             margin-top: 80%;
             text-align: center;
             line-height: 75px;
+        }
+        @media screen and (max-width: 400px) {
+            font-size: 40px;
+            left: -98%;
+            width: 290%;
+            line-height: 57px;
         }
     }
     h4 {
@@ -92,8 +107,10 @@ export const CreateAccountText = styled.div`
             text-align: center;
             line-height: 55px;
         }
+        @media screen and (max-width: 400px) {
+            font-size: 27px;
+        }
     }
-
 `
 export const PhoneMockupThree = styled.div`
     background-image: url(${PhoneImageThree});
@@ -108,9 +125,9 @@ export const PhoneMockupThree = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        width: 130%;
+        width: 110%;
         top: 385%;
-        left: 2%;
+        left: 3%;
         height: 110%;  
         background-size: 120%;
         background-position: center;    
@@ -145,6 +162,9 @@ export const ExploreVarietiesText = styled.div`
             margin-top: 630%;
             
         }
+        @media screen and (max-width: 400px) {
+            font-size: 28px;
+        }
     }
     h2 {
         font-family: 'Montserrat', sans-serif;
@@ -163,6 +183,10 @@ export const ExploreVarietiesText = styled.div`
             margin-top: 700%;
             text-align: center;
             line-height: 75px;
+        }
+        @media screen and (max-width: 400px) {
+            font-size: 40px;
+            line-height: 57px;
         }
     }
     h4 {
@@ -183,6 +207,11 @@ export const ExploreVarietiesText = styled.div`
             text-align: center;
             line-height: 55px;
         }
+        @media screen and (max-width: 400px) {
+            font-size: 24px;
+            line-height: 38px;
+            margin-top: 899%;
+        }
     }
 `
 
@@ -199,9 +228,9 @@ export const PhoneMockupFour = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        width: 130%;
+        width: 120%;
         top: 605%;
-        left: 2%;
+        left: 11%;
         height: 105%; 
         background-size: 110%;
         background-position: center;      
@@ -235,6 +264,9 @@ export const CheckoutText = styled.div`
             left: -10%;
             margin-top: 1100%;
         }
+        @media screen and (max-width: 400px) {
+            font-size: 27px;
+        }
     }
     h2 {
         font-family: 'Montserrat', sans-serif;
@@ -253,6 +285,10 @@ export const CheckoutText = styled.div`
             margin-top: 1160%;
             text-align: center;
             line-height: 75px;
+        }
+        @media screen and (max-width: 400px) {
+            font-size: 40px;
+            line-height: 57px;
         }
     }
     h4 {
@@ -273,6 +309,10 @@ export const CheckoutText = styled.div`
             text-align: center;
             line-height: 55px;
         }
+        @media screen and (max-width: 400px) {
+            font-size: 24px;
+            line-height: 38px;
+        }
     }
 
 `
@@ -290,10 +330,10 @@ export const PhoneMockupFive = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        width: 135%;
+        width: 120%;
         top: 818%;
         height: 110%;
-        left: -5%;    
+        left: -4%;    
         background-size: 110%;
         background-position: center;     
     }

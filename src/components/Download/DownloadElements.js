@@ -36,6 +36,9 @@ export const DownloadText = styled.div`
         @media screen and (max-width: 480px) {
             margin-top: 25%;
         }
+        @media screen and (max-width: 400px) {
+            font-size: 32px;
+        }
     }
     h4 {
         font-family: 'Montserrat', sans-serif;
@@ -50,6 +53,10 @@ export const DownloadText = styled.div`
             line-height: 43px;
             text-align: center;
         }
+        @media screen and (max-width: 400px) {
+            font-size: 22px;
+            line-height: 38px;
+        }
     }
 `
 
@@ -60,6 +67,9 @@ export const DownloadBtnContainer = styled.div`
     @media screen and (max-width: 480px) {
         width: 80%;
         margin: 17% 10%;
+    }
+    @media screen and (max-width: 400px) {
+        margin: 0 6%;
     }
 `
 

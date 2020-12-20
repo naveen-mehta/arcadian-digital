@@ -32,9 +32,12 @@ export const HeroText = styled.div`
         @media screen and (max-width: 480px) {
            font-size: 24px;   
            color: #737373;
-           top: 10%;
+           top: 4%;
            position: absolute;
            left: 20%;
+        }
+        @media screen and (max-width: 400px) {
+            left: 15%;
         }
     }
 
@@ -50,17 +53,22 @@ export const HeroText = styled.div`
 
         @media screen and (max-width: 480px) {
            font-family: 'Montserrat', sans-serif;
-           font-size: 50px;   
+           font-size: 36px;   
            color: #252B42;
            font-weight: bold;
            line-height: 58px; 
            letter-spacing: 0.2px;
-           top: 20%;
-           left: -30%;
+           top: 18%;
+           left: -25%;
            width: 115%;
            position: absolute; 
            color: #252B42;
            margin: 0;
+        }
+
+        @media screen and (max-width: 400px) {
+           font-size: 30px;
+           line-height: 48px;   
         }
     }
 
@@ -78,15 +86,20 @@ export const HeroText = styled.div`
 
         @media screen and (max-width: 480px) {
            font-family: 'Montserrat', sans-serif;
-           font-size: 34px;   
+           font-size: 28px;   
            color: #737373;
            font-weight: 500;
            line-height: 48px; 
-           top: 50%;
-           left: -31%;
-           width: 130%;
+           top: 48%;
+           left: -21%;
+           width: 108%;
            position: absolute; 
            margin: 0;
+        }
+        @media screen and (max-width: 400px) {
+           font-size: 22px;
+           line-height: 35px;
+           top: 52%;   
         }
     }
 `
