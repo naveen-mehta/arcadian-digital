@@ -118,9 +118,9 @@ export const PhoneMockupOne = styled.div`
 
     @media screen and (max-width: 480px) {
         top: 100%;
-        width: 80%;
-        height: 82%;
-        left: -40%;
+        width: 72%;
+        height: 105%;
+        left: -33%;
         overflow: hidden;
         background-size: 95%;
         background-position: center;
@@ -139,10 +139,10 @@ export const PhoneMockupTwo = styled.div`
     position: relative;
 
     @media screen and (max-width: 480px) {
-        top: 116%;
-        width: 70%;
+        top: 112%;
+        width: 65%;
         left: 30%;
-        height: 75%;
+        height: 100%;
         background-size: 100%;
         background-position: center;
     }

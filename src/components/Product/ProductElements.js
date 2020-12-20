@@ -101,7 +101,7 @@ export const CreateAccountText = styled.div`
         @media screen and (max-width: 480px) {
             font-size: 35px;
             width: 200%;
-            margin-top: 315%;
+            margin-top: 270%;
             position: absolute;
             left: -48%;
             text-align: center;
@@ -126,10 +126,10 @@ export const PhoneMockupThree = styled.div`
 
     @media screen and (max-width: 480px) {
         width: 110%;
-        top: 385%;
+        top: 370%;
         left: 3%;
         height: 110%;  
-        background-size: 120%;
+        background-size: 110%;
         background-position: center;    
     }
 `
@@ -158,9 +158,8 @@ export const ExploreVarietiesText = styled.div`
             font-size: 35px;
             width: 200%;
             position: absolute;
-            left: 47%;
-            margin-top: 630%;
-            
+            left: 49%;
+            margin-top: 500%;
         }
         @media screen and (max-width: 400px) {
             font-size: 28px;
@@ -180,9 +179,9 @@ export const ExploreVarietiesText = styled.div`
             width: 280%;
             position: absolute;
             left: 0%;
-            margin-top: 700%;
+            margin-top: 570%;
             text-align: center;
-            line-height: 75px;
+            line-height: 70px;
         }
         @media screen and (max-width: 400px) {
             font-size: 40px;
@@ -202,15 +201,15 @@ export const ExploreVarietiesText = styled.div`
             font-size: 35px;
             width: 200%;
             position: absolute;
-            margin-top: 880%;
+            margin-top: 720%;
             left: 35%;
             text-align: center;
-            line-height: 55px;
+            line-height: 44px;
         }
         @media screen and (max-width: 400px) {
             font-size: 24px;
             line-height: 38px;
-            margin-top: 899%;
+            margin-top: 790%;
         }
     }
 `
@@ -228,10 +227,10 @@ export const PhoneMockupFour = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        width: 120%;
-        top: 605%;
-        left: 11%;
-        height: 105%; 
+        width: 110%;
+        top: 580%;
+        left: 15%;
+        height: 107%; 
         background-size: 110%;
         background-position: center;      
     }
@@ -262,7 +261,7 @@ export const CheckoutText = styled.div`
             width: 200%;
             position: absolute;
             left: -10%;
-            margin-top: 1100%;
+            margin-top: 960%;
         }
         @media screen and (max-width: 400px) {
             font-size: 27px;
@@ -282,9 +281,9 @@ export const CheckoutText = styled.div`
             width: 280%;
             position: absolute;
             left: -90%;
-            margin-top: 1160%;
+            margin-top: 1020%;
             text-align: center;
-            line-height: 75px;
+            line-height: 57px;
         }
         @media screen and (max-width: 400px) {
             font-size: 40px;
@@ -301,13 +300,13 @@ export const CheckoutText = styled.div`
         letter-spacing: 0.2px;
 
         @media screen and (max-width: 480px) {
-            font-size: 35px;
+            font-size: 24px;
             width: 200%;
             position: absolute;
-            margin-top: 1350%;
+            margin-top: 1170%;
             left: -55%;
             text-align: center;
-            line-height: 55px;
+            line-height: 38px;
         }
         @media screen and (max-width: 400px) {
             font-size: 24px;
@@ -331,7 +330,7 @@ export const PhoneMockupFive = styled.div`
 
     @media screen and (max-width: 480px) {
         width: 120%;
-        top: 818%;
+        top: 800%;
         height: 110%;
         left: -4%;    
         background-size: 110%;
