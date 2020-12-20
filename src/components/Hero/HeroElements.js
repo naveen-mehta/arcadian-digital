@@ -14,8 +14,8 @@ export const HeroContainer = styled.div`
     
     @media screen and (max-width: 480px) {
        background-image: none;
-       left: 30%;
-       width: 400px;
+       left: 40%;
+       width: 100%;
     }
 `
 
@@ -30,13 +30,11 @@ export const HeroText = styled.div`
         justify-content: center;
 
         @media screen and (max-width: 480px) {
-           font-size: 20px;   
+           font-size: 24px;   
            color: #737373;
-           margin-left: 79%;
            top: 10%;
            position: absolute;
-           width: 200px;
-           left: 0%;
+           left: 20%;
         }
     }
 
@@ -58,7 +56,7 @@ export const HeroText = styled.div`
            line-height: 58px; 
            letter-spacing: 0.2px;
            top: 20%;
-           left: 25%;
+           left: -30%;
            width: 130%;
            position: absolute; 
            color: #252B42;
@@ -85,7 +83,7 @@ export const HeroText = styled.div`
            font-weight: 500;
            line-height: 48px; 
            top: 50%;
-           left: 25%;
+           left: -31%;
            width: 130%;
            position: absolute; 
            margin: 0;
@@ -96,19 +94,24 @@ export const HeroText = styled.div`
 export const PhoneMockupOne = styled.div`
     background-image: url(${PhoneImageOne});
     z-index: 1;   
-    background-size: 100%;    
+    background-size: 50%;    
     background-repeat: no-repeat;  
     width: 45%;
     height: 150%;
     position: absolute;
-    top: 45%;
-    left: 20%;
+    top: 57%;
+    left: 27%;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        top: 90%;
-        width: 152%;
-        left: -27%;
+        top: 100%;
+        width: 80%;
+        height: 82%;
+        left: -40%;
+        overflow: hidden;
+        background-size: 95%;
+        background-position: center;
+        filter: none;
     }
 `
 
@@ -123,9 +126,12 @@ export const PhoneMockupTwo = styled.div`
     position: relative;
 
     @media screen and (max-width: 480px) {
-        top: 121%;
-        width: 150%;
-        left: 85%;
+        top: 116%;
+        width: 70%;
+        left: 30%;
+        height: 75%;
+        background-size: 100%;
+        background-position: center;
     }
 `
 
@@ -139,7 +145,7 @@ export const HorizontalRule = styled.div`
     @media screen and (max-width: 480px) {
         top: 210%;
         width: 100%;
-        left: 0;
+        left: -15%;
     }
 `
 
@@ -167,7 +173,7 @@ export const PlaystoreBtn = styled.button`
         top: 68%;
         width: 75%;
         height: 11%;
-        left: 51%;
+        left: -3%;
     }
 
     h3 {
@@ -205,7 +211,7 @@ export const AppstoreBtn = styled.button`
         top: 81%;
         width: 75%;
         height: 11%;
-        left: 50%;
+        left: -3.5%;
         border: 1px solid #FA4A0C;
     }
 

@@ -10,7 +10,7 @@ export const FooterContainer = styled.div`
 
     @media screen and (max-width: 480px) {
         top: 990%;
-        width: 200%;
+        width: 100%;
     }
 `
 

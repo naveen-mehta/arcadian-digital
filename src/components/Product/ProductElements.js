@@ -18,7 +18,7 @@ export const ProductHeadline = styled.div`
     @media screen and (max-width: 480px) {
         top: 240%;
         width: 110%; 
-        left: 28%;
+        left: 30%;
 
         h1 {
             font-size: 36px;
@@ -50,9 +50,9 @@ export const CreateAccountText = styled.div`
 
         @media screen and (max-width: 480px) {
             font-size: 35px;
-            width: 200%;
+            width: 220%;
             position: absolute;
-            left: -50%;
+            left: 75%;
         }
     }
     h2 {
@@ -68,7 +68,7 @@ export const CreateAccountText = styled.div`
             font-size: 55px;
             width: 300%;
             position: absolute;
-            left: -100%;
+            left: 25%;
             margin-top: 80%;
             text-align: center;
             line-height: 75px;
@@ -88,7 +88,7 @@ export const CreateAccountText = styled.div`
             width: 200%;
             margin-top: 315%;
             position: absolute;
-            left: -50%;
+            left: 70%;
             text-align: center;
             line-height: 55px;
         }
@@ -108,9 +108,12 @@ export const PhoneMockupThree = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        width: 200%;
-        top: 340%;
-        left: -17%;      
+        width: 130%;
+        top: 345%;
+        left: 23%;
+        height: 110%;  
+        background-size: 120%;
+        background-position: center;    
     }
 `
 
@@ -138,8 +141,8 @@ export const ExploreVarietiesText = styled.div`
             font-size: 35px;
             width: 200%;
             position: absolute;
-            left: 100%;
-            margin-top: 450%;
+            left: 180%;
+            margin-top: 720%;
         }
     }
     h2 {
@@ -155,8 +158,8 @@ export const ExploreVarietiesText = styled.div`
             font-size: 55px;
             width: 280%;
             position: absolute;
-            left: 25%;
-            margin-top: 520%;
+            left: 120%;
+            margin-top: 820%;
             text-align: center;
             line-height: 75px;
         }
@@ -174,8 +177,8 @@ export const ExploreVarietiesText = styled.div`
             font-size: 35px;
             width: 200%;
             position: absolute;
-            margin-top: 700%;
-            left: 70%;
+            margin-top: 1000%;
+            left: 190%;
             text-align: center;
             line-height: 55px;
         }
@@ -195,9 +198,12 @@ export const PhoneMockupFour = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        width: 150%;
-        top: 530%;
-        left: 10%;      
+        width: 130%;
+        top: 630%;
+        left: 60%;
+        height: 105%; 
+        background-size: 110%;
+        background-position: center;      
     }
 `
 
@@ -283,9 +289,12 @@ export const PhoneMockupFive = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        width: 200%;
+        width: 135%;
         top: 740%;
-        left: -10%;      
+        height: 110%;
+        left: -2%;    
+        background-size: 110%;
+        background-position: center;     
     }
 `
 
