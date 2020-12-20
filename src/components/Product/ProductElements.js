@@ -204,7 +204,7 @@ export const ExploreVarietiesText = styled.div`
             margin-top: 720%;
             left: 35%;
             text-align: center;
-            line-height: 44px;
+            line-height: 55px;
         }
         @media screen and (max-width: 400px) {
             font-size: 27px;
@@ -306,7 +306,7 @@ export const CheckoutText = styled.div`
             margin-top: 1170%;
             left: -55%;
             text-align: center;
-            line-height: 38px;
+            line-height: 55px;
         }
         @media screen and (max-width: 400px) {
             font-size: 27px;
