@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This is a front-end single page application built using React as a part of a coding test for Arcadian Digital. Used styled components for custom compoenents and react scroll for smooth scrolling. Deployed using netlify. 
+This is a front-end single page application built using React as a part of a coding test for Arcadian Digital. Used styled components for custom components and react scroll for smooth scrolling. Deployed using netlify. 
 
 See live version here :) https://please-hire-naveen.netlify.app/ 
 
