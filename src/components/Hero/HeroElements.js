@@ -10,8 +10,10 @@ export const HeroContainer = styled.div`
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    left: 0px;
-    
+    left: 0;
+    z-index: -555;
+    top: 22%;
+
     @media screen and (max-width: 480px) {
        background-image: none;
        left: 40%;
@@ -28,6 +30,7 @@ export const HeroText = styled.div`
         font-weight: bold;
         display: flex;
         justify-content: center;
+        margin-top: 2%;
 
         @media screen and (max-width: 480px) {
            font-size: 24px;   

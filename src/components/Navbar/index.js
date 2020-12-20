@@ -6,14 +6,13 @@ const Navbar = () => {
 
     return (
         <div>
-            <Nav >
+            <Nav>
                 <NavLogo to="/">
                     <img src={logo} alt=""/>
                 </NavLogo>
                 <NavMenu>
                     <NavLink 
-                        to="home"
-                        
+                        to="home"         
                         smooth={true}
                         duration={550}
                         spy={true}
@@ -23,7 +22,6 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink
                         to="product"
-                        
                         smooth={true}
                         duration={550}
                         spy={true}
@@ -33,7 +31,6 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink
                         to="faq"
-                        
                         smooth={true}
                         duration={550}
                         spy={true}
@@ -43,7 +40,6 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink
                         to="contact"
-                        
                         smooth={true}
                         duration={550}
                         spy={true}

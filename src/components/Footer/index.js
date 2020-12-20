@@ -14,7 +14,7 @@ import Instagram from '../../images/instagram.png'
 const Footer = () => {
     return (
         <div>
-            <FooterContainer id="contact">            
+            <FooterContainer>            
                 <FooterLogo to="/">
                     <img src={logo} alt=""/>
                 </FooterLogo>

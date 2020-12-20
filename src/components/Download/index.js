@@ -10,7 +10,7 @@ import {
 const Download = () => {
     return (
         <div>
-            <DownloadContainer id="faq">          
+            <DownloadContainer id="contact">          
                 <DownloadText>
                     <h2>Download the app now.</h2>
                     <h4>Available on your favorite store. Start your premium experience now</h4>
