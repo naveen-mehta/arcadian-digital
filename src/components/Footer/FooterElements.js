@@ -9,8 +9,11 @@ export const FooterContainer = styled.div`
     left: 20%;
 
     @media screen and (max-width: 480px) {
-        top: 990%;
+        top: 1047%;
         width: 100%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        
     }
 `
 
@@ -31,4 +34,9 @@ export const SocialMediaLink = styled.div`
 `
 
 export const Copyright = styled.div`
+     
+     @media screen and (max-width: 480px) {
+        margin: 5%;
+        text-align: center;
+    }
 `

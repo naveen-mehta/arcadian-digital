@@ -52,7 +52,7 @@ export const CreateAccountText = styled.div`
             font-size: 35px;
             width: 220%;
             position: absolute;
-            left: 75%;
+            left: -46%;
         }
     }
     h2 {
@@ -68,7 +68,7 @@ export const CreateAccountText = styled.div`
             font-size: 55px;
             width: 300%;
             position: absolute;
-            left: 25%;
+            left: -93%;
             margin-top: 80%;
             text-align: center;
             line-height: 75px;
@@ -88,7 +88,7 @@ export const CreateAccountText = styled.div`
             width: 200%;
             margin-top: 315%;
             position: absolute;
-            left: 70%;
+            left: -48%;
             text-align: center;
             line-height: 55px;
         }
@@ -109,8 +109,8 @@ export const PhoneMockupThree = styled.div`
 
     @media screen and (max-width: 480px) {
         width: 130%;
-        top: 345%;
-        left: 23%;
+        top: 385%;
+        left: 2%;
         height: 110%;  
         background-size: 120%;
         background-position: center;    
@@ -141,8 +141,9 @@ export const ExploreVarietiesText = styled.div`
             font-size: 35px;
             width: 200%;
             position: absolute;
-            left: 180%;
-            margin-top: 720%;
+            left: 47%;
+            margin-top: 630%;
+            
         }
     }
     h2 {
@@ -158,8 +159,8 @@ export const ExploreVarietiesText = styled.div`
             font-size: 55px;
             width: 280%;
             position: absolute;
-            left: 120%;
-            margin-top: 820%;
+            left: 0%;
+            margin-top: 700%;
             text-align: center;
             line-height: 75px;
         }
@@ -177,8 +178,8 @@ export const ExploreVarietiesText = styled.div`
             font-size: 35px;
             width: 200%;
             position: absolute;
-            margin-top: 1000%;
-            left: 190%;
+            margin-top: 880%;
+            left: 35%;
             text-align: center;
             line-height: 55px;
         }
@@ -199,8 +200,8 @@ export const PhoneMockupFour = styled.div`
 
     @media screen and (max-width: 480px) {
         width: 130%;
-        top: 630%;
-        left: 60%;
+        top: 605%;
+        left: 2%;
         height: 105%; 
         background-size: 110%;
         background-position: center;      
@@ -231,8 +232,8 @@ export const CheckoutText = styled.div`
             font-size: 35px;
             width: 200%;
             position: absolute;
-            left: 100%;
-            margin-top: 950%;
+            left: -10%;
+            margin-top: 1100%;
         }
     }
     h2 {
@@ -248,8 +249,8 @@ export const CheckoutText = styled.div`
             font-size: 55px;
             width: 280%;
             position: absolute;
-            left: 25%;
-            margin-top: 1020%;
+            left: -90%;
+            margin-top: 1160%;
             text-align: center;
             line-height: 75px;
         }
@@ -267,8 +268,8 @@ export const CheckoutText = styled.div`
             font-size: 35px;
             width: 200%;
             position: absolute;
-            margin-top: 1200%;
-            left: 70%;
+            margin-top: 1350%;
+            left: -55%;
             text-align: center;
             line-height: 55px;
         }
@@ -290,9 +291,9 @@ export const PhoneMockupFive = styled.div`
 
     @media screen and (max-width: 480px) {
         width: 135%;
-        top: 740%;
+        top: 818%;
         height: 110%;
-        left: -2%;    
+        left: -5%;    
         background-size: 110%;
         background-position: center;     
     }

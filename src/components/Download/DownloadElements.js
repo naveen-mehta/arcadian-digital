@@ -14,8 +14,8 @@ export const DownloadContainer = styled.div`
     @media screen and (max-width: 480px) {
         background-image: none;
         background-color: #252B42;
-        top: 870%;
-        width: 100%;
+        top: 940%;
+        width: 140%;
     }
 `
 
@@ -32,6 +32,10 @@ export const DownloadText = styled.div`
         letter-spacing: 0.2px;
         margin: 7% 20% 0 20%;
         line-height: 57px;
+
+        @media screen and (max-width: 480px) {
+            margin-top: 25%;
+        }
     }
     h4 {
         font-family: 'Montserrat', sans-serif;
@@ -39,12 +43,24 @@ export const DownloadText = styled.div`
         color: #F6F6F6;
         display: flex;
         justify-content: center;
+
+        @media screen and (max-width: 480px) {
+            width: 60%;
+            margin-left: 20%;
+            line-height: 43px;
+            text-align: center;
+        }
     }
 `
 
 export const DownloadBtnContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    @media screen and (max-width: 480px) {
+        width: 80%;
+        margin: 17% 10%;
+    }
 `
 
 export const DownloadPlaystoreBtn = styled.button`
@@ -61,7 +77,7 @@ export const DownloadPlaystoreBtn = styled.button`
     border: none;
 
     @media screen and (max-width: 480px) {
-        margin-left: 40%;
+        margin-left: 20%;
     }
 
     h3 {
