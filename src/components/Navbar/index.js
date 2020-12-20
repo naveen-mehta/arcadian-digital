@@ -12,7 +12,8 @@ const Navbar = () => {
                 </NavLogo>
                 <NavMenu>
                     <NavLink 
-                        to="home"         
+                        to="home"   
+                        offset={-190}      
                         smooth={true}
                         duration={550}
                         spy={true}

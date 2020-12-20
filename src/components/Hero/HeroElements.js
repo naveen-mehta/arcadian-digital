@@ -112,11 +112,11 @@ export const PhoneMockupOne = styled.div`
     z-index: 1;   
     background-size: 50%;    
     background-repeat: no-repeat;  
-    width: 45%;
+    width: 43%;
     height: 150%;
     position: absolute;
-    top: 57%;
-    left: 27%;
+    top: 61%;
+    left: 29%;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
@@ -135,7 +135,7 @@ export const PhoneMockupTwo = styled.div`
     background-image: url(${PhoneImageTwo});
     background-size: 50%;    
     background-repeat: no-repeat;
-    top: 30%;
+    top: 32%;
     width: 42%;
     height: 100%;
     left: 47.5%;

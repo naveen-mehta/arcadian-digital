@@ -12,7 +12,7 @@ export const ProductHeadline = styled.div`
         opacity: 0.8;
     }
     position: absolute;
-    top: 208%;
+    top: 210%;
     left: 35%;
 
     @media screen and (max-width: 480px) {
