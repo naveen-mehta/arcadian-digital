@@ -15,7 +15,7 @@ const Navbar = () => {
                         to="home"   
                         offset={-190}      
                         smooth={true}
-                        duration={550}
+                        duration={650}
                         spy={true}
                         exact='true'
                     >
@@ -23,8 +23,9 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink
                         to="product"
+                        offset={120}
                         smooth={true}
-                        duration={550}
+                        duration={650}
                         spy={true}
                         exact='true'
                     >
@@ -32,8 +33,9 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink
                         to="faq"
+                        offset={-140}
                         smooth={true}
-                        duration={550}
+                        duration={650}
                         spy={true}
                         exact='true'
                     >
@@ -41,8 +43,9 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink
                         to="contact"
+                        offset={-45}
                         smooth={true}
-                        duration={550}
+                        duration={650}
                         spy={true}
                         exact='true'
                     >
