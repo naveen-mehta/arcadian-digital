@@ -162,7 +162,7 @@ export const ExploreVarietiesText = styled.div`
             margin-top: 500%;
         }
         @media screen and (max-width: 400px) {
-            font-size: 28px;
+            font-size: 27px;
         }
     }
     h2 {
@@ -181,7 +181,7 @@ export const ExploreVarietiesText = styled.div`
             left: 0%;
             margin-top: 570%;
             text-align: center;
-            line-height: 70px;
+            line-height: 75px;
         }
         @media screen and (max-width: 400px) {
             font-size: 40px;
@@ -207,7 +207,7 @@ export const ExploreVarietiesText = styled.div`
             line-height: 44px;
         }
         @media screen and (max-width: 400px) {
-            font-size: 24px;
+            font-size: 27px;
             line-height: 38px;
             margin-top: 790%;
         }
@@ -283,7 +283,7 @@ export const CheckoutText = styled.div`
             left: -90%;
             margin-top: 1020%;
             text-align: center;
-            line-height: 57px;
+            line-height: 75px;
         }
         @media screen and (max-width: 400px) {
             font-size: 40px;
@@ -300,7 +300,7 @@ export const CheckoutText = styled.div`
         letter-spacing: 0.2px;
 
         @media screen and (max-width: 480px) {
-            font-size: 24px;
+            font-size: 35px;
             width: 200%;
             position: absolute;
             margin-top: 1170%;
@@ -309,7 +309,7 @@ export const CheckoutText = styled.div`
             line-height: 38px;
         }
         @media screen and (max-width: 400px) {
-            font-size: 24px;
+            font-size: 27px;
             line-height: 38px;
         }
     }

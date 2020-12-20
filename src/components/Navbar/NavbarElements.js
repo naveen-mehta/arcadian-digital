@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { NavLink as Link } from 'react-router-dom' 
+import { Link as LinkScroll } from 'react-scroll'
 
 export const Nav = styled.nav`
     height: 156px;
@@ -43,7 +44,7 @@ export const NavMenu = styled.div`
     }
 
 `
-export const NavLink = styled.div`
+export const NavLink = styled(LinkScroll)`
     padding-left: 94px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px; 

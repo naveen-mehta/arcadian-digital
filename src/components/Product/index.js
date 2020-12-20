@@ -15,7 +15,7 @@ import {
 const ProductOverview = () => {
     return (
         <div>
-            <ProductHeadline>
+            <ProductHeadline id="product">
                 <h1>How the app works</h1>
             </ProductHeadline>
             
@@ -50,7 +50,7 @@ const ProductOverview = () => {
             </ExploreVarietiesContainer>
 
             <CheckoutContainer>
-                <PhoneMockupFive />
+                <PhoneMockupFive id="faq"/>
                 <CheckoutText>
                     <h3>
                         Checkout
