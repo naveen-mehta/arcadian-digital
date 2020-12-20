@@ -57,7 +57,7 @@ export const HeroText = styled.div`
            letter-spacing: 0.2px;
            top: 20%;
            left: -30%;
-           width: 130%;
+           width: 115%;
            position: absolute; 
            color: #252B42;
            margin: 0;

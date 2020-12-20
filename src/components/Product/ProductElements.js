@@ -17,7 +17,7 @@ export const ProductHeadline = styled.div`
 
     @media screen and (max-width: 480px) {
         top: 240%;
-        width: 110%; 
+        width: 100%; 
         left: 30%;
 
         h1 {
@@ -100,11 +100,11 @@ export const PhoneMockupThree = styled.div`
     z-index: 1;   
     background-size: 100%;    
     background-repeat: no-repeat;  
-    width: 50%;
-    height: 125%;
-    margin-left: 6%;
+    width: 30%;
+    height: 90%;
+    margin-left: 13%;
     position: absolute;
-    top: 220%;
+    top: 245%;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
@@ -191,11 +191,11 @@ export const PhoneMockupFour = styled.div`
     z-index: 1;   
     background-size: 100%;    
     background-repeat: no-repeat;  
-    width: 50%;
-    height: 125%;
-    left: 51%;
+    width: 30%;
+    height: 90%;
+    left: 58%;
     position: absolute;
-    top: 325%;
+    top: 349%;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
@@ -282,11 +282,11 @@ export const PhoneMockupFive = styled.div`
     z-index: 1;   
     background-size: 100%;    
     background-repeat: no-repeat;  
-    width: 50%;
-    height: 125%;
-    margin-left: 6%;
+    width: 30%;
+    height: 90%;
+    margin-left: 13%;
     position: absolute;
-    top: 435%;
+    top: 457%;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {

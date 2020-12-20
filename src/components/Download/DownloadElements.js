@@ -15,7 +15,7 @@ export const DownloadContainer = styled.div`
         background-image: none;
         background-color: #252B42;
         top: 940%;
-        width: 140%;
+        width: 140vw;
     }
 `
 
