@@ -4,7 +4,9 @@
 
 ## Introduction
 
-This is a front-end single page application built using React as a part of a coding test for Arcadian Digital. Used styled components and react scroll for smooth scrolling. 
+This is a front-end single page application built using React as a part of a coding test for Arcadian Digital. Used styled components for custom compoenents and react scroll for smooth scrolling. Deployed using netlify. 
+
+See live version here :) https://please-hire-naveen.netlify.app/ 
 
 ## Instructions to run this app
 
@@ -41,7 +43,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn build`
+### Build for production
+yarn build 
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -49,5 +52,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See deployment instructions here [deployment](https://facebook.github.io/create-react-app/docs/deployment) 
 
