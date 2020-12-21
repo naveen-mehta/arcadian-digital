@@ -23,7 +23,7 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink
                         to="product"
-                        offset={120}
+                        offset={60}
                         smooth={true}
                         duration={650}
                         spy={true}
@@ -43,7 +43,7 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink
                         to="contact"
-                        offset={-45}
+                        offset={-270}
                         smooth={true}
                         duration={650}
                         spy={true}
