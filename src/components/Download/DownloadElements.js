@@ -4,10 +4,10 @@ import DownloadImage from '../../images/download.png'
 export const DownloadContainer = styled.div`
     background-image: url(${DownloadImage});
     background-size: 100%;    
-    position: absolute;
-    top: 3691px;
+    position: relative;
+    top: 1050px;
     width: 100%;
-    height: 506px;
+    height: 510px;
     background-repeat: no-repeat;
     left: 0px;
 
@@ -17,6 +17,11 @@ export const DownloadContainer = styled.div`
         top: 940%;
         width: 140vw;
     }
+`
+
+export const DownloadContentContainer = styled.div`
+    margin: 0 auto;
+    width: 800px;
 `
 
 export const DownloadText = styled.div`
@@ -31,9 +36,9 @@ export const DownloadText = styled.div`
         text-align: center;
         letter-spacing: 0.2px;
         line-height: 57px;
-        position: absolute;
-        top: 106px;
-        left: 472px;
+        position: relative;
+        top: 136px;
+        left: 5px;
 
         @media screen and (max-width: 480px) {
             margin-top: 25%;
@@ -48,9 +53,10 @@ export const DownloadText = styled.div`
         color: #F6F6F6;
         display: flex;
         justify-content: center;
-        position: absolute;
-        top: 190px;
-        left: 297px;
+        position: relative;
+        top: 128px;
+        left: -11px;
+        width: 850px;
 
         @media screen and (max-width: 480px) {
             width: 60%;
@@ -68,9 +74,9 @@ export const DownloadText = styled.div`
 export const DownloadBtnContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
-    position: absolute;
-    top: 315px;
-    left: -22px;
+    position: relative;
+    top: 160px;
+    left: -336px;
 
     @media screen and (max-width: 480px) {
         width: 80%;
@@ -92,7 +98,7 @@ export const DownloadPlaystoreBtn = styled.button`
     height: 64px;
     justify-content: center;
     border: none;
-    position: absolute;
+    position: relative;
     left: 577px;
 
     @media screen and (max-width: 480px) {
@@ -121,8 +127,9 @@ export const DownloadAppstoreBtn = styled.button`
     width: 173px;
     height: 60px;
     justify-content: center;
-    position: absolute;
-    left: 735px;
+    position: relative;
+    left: 335px;
+    top: 3px;
 
     h3 {
         font-family: Montserrat;

@@ -4,25 +4,28 @@ import {
     DownloadContainer, 
     DownloadPlaystoreBtn, 
     DownloadText,
-    DownloadBtnContainer 
+    DownloadBtnContainer,
+    DownloadContentContainer 
 } from './DownloadElements'
 
 const Download = () => {
     return (
         <div>
             <DownloadContainer id="contact">          
-                <DownloadText>
-                    <h2>Download the app now.</h2>
-                    <h4>Available on your favorite store. Start your premium experience now</h4>
-                </DownloadText>
-                <DownloadBtnContainer>
-                    <DownloadPlaystoreBtn>
-                        <h3>Playstore</h3>
-                    </DownloadPlaystoreBtn>
-                    <DownloadAppstoreBtn>
-                        <h3>App store</h3>
-                    </DownloadAppstoreBtn>
-                </DownloadBtnContainer>
+                <DownloadContentContainer>
+                    <DownloadText>
+                        <h2>Download the app now.</h2>
+                        <h4>Available on your favorite store. Start your premium experience now</h4>
+                    </DownloadText>
+                    <DownloadBtnContainer>
+                        <DownloadPlaystoreBtn>
+                            <h3>Playstore</h3>
+                        </DownloadPlaystoreBtn>
+                        <DownloadAppstoreBtn>
+                            <h3>App store</h3>
+                        </DownloadAppstoreBtn>
+                    </DownloadBtnContainer>
+                </DownloadContentContainer>
             </DownloadContainer>     
         </div>
     )
