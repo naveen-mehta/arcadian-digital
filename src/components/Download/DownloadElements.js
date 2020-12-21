@@ -5,9 +5,9 @@ export const DownloadContainer = styled.div`
     background-image: url(${DownloadImage});
     background-size: 100%;    
     position: absolute;
-    top: 570%;
+    top: 3691px;
     width: 100%;
-    height: 100%;
+    height: 506px;
     background-repeat: no-repeat;
     left: 0px;
 
@@ -30,8 +30,10 @@ export const DownloadText = styled.div`
         justify-content: center;
         text-align: center;
         letter-spacing: 0.2px;
-        margin: 7% 20% 0 20%;
         line-height: 57px;
+        position: absolute;
+        top: 106px;
+        left: 472px;
 
         @media screen and (max-width: 480px) {
             margin-top: 25%;
@@ -46,6 +48,9 @@ export const DownloadText = styled.div`
         color: #F6F6F6;
         display: flex;
         justify-content: center;
+        position: absolute;
+        top: 190px;
+        left: 297px;
 
         @media screen and (max-width: 480px) {
             width: 60%;
@@ -63,6 +68,9 @@ export const DownloadText = styled.div`
 export const DownloadBtnContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 315px;
+    left: -22px;
 
     @media screen and (max-width: 480px) {
         width: 80%;
@@ -80,11 +88,12 @@ export const DownloadPlaystoreBtn = styled.button`
     display: flex; 
     flex-direction: column;
     align-items: center;
-    margin-left: 80%;
     width: 142px;
     height: 64px;
     justify-content: center;
     border: none;
+    position: absolute;
+    left: 577px;
 
     @media screen and (max-width: 480px) {
         margin-left: 20%;
@@ -109,10 +118,11 @@ export const DownloadAppstoreBtn = styled.button`
     display: flex; 
     flex-direction: column;
     align-items: center;
-    margin-left: 3%;
     width: 173px;
     height: 60px;
     justify-content: center;
+    position: absolute;
+    left: 735px;
 
     h3 {
         font-family: Montserrat;
