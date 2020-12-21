@@ -12,8 +12,8 @@ export const ProductHeadline = styled.div`
         opacity: 0.8;
     }
     position: absolute;
-    top: 210%;
-    left: 35%;
+    top: 1407px;
+    left: 495px;
 
     @media screen and (max-width: 480px) {
         top: 240%;
@@ -41,9 +41,9 @@ export const CreateAccountContainer = styled.div`
 
 export const CreateAccountText = styled.div`
     position: absolute;
-    top: 265%;
-    left: 51%;
-    width: 40%;
+    top: 1756px;
+    left: 720px;
+    
 
     h3 {
         font-family: 'Montserrat', sans-serif;
@@ -72,6 +72,7 @@ export const CreateAccountText = styled.div`
         line-height: 57px;
         font-weight: bold;
         letter-spacing: 0.2px;
+        margin-top: -9px;
 
         @media screen and (max-width: 480px) {
             font-size: 55px;
@@ -117,11 +118,11 @@ export const PhoneMockupThree = styled.div`
     z-index: 1;   
     background-size: 100%;    
     background-repeat: no-repeat;  
-    width: 30%;
-    height: 90%;
-    margin-left: 13%;
+    width: 410px;
+    height: 570px;
+    left: 188px;
     position: absolute;
-    top: 245%;
+    top: 1602px;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
