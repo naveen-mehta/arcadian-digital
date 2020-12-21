@@ -110,13 +110,13 @@ export const HeroText = styled.div`
 export const PhoneMockupOne = styled.div`
     background-image: url(${PhoneImageOne});
     z-index: 1;   
-    background-size: 50%;    
+    background-size: 94%;    
     background-repeat: no-repeat;  
-    width: 43%;
-    height: 150%;
+    width: 295px;
+    height: 613px;
     position: absolute;
-    top: 61%;
-    left: 29%;
+    top: 456px;
+    left: 467px;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
