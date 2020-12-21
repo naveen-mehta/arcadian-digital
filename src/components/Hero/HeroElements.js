@@ -57,7 +57,8 @@ export const HeroText = styled.div`
         line-height: 80px;
         position: absolute;
         top: 87px;
-        left: 251px;
+        left: 215px;
+        width: 1000px;
 
         @media screen and (max-width: 480px) {
            font-family: 'Montserrat', sans-serif;
