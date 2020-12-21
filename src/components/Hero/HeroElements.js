@@ -133,12 +133,12 @@ export const PhoneMockupOne = styled.div`
 
 export const PhoneMockupTwo = styled.div`
     background-image: url(${PhoneImageTwo});
-    background-size: 50%;    
+    background-size: 94%;    
     background-repeat: no-repeat;
-    top: 32%;
-    width: 42%;
-    height: 100%;
-    left: 47.5%;
+    top: 250px;
+    width: 302px;
+    height: 613px;
+    left: 710px;
     position: relative;
 
     @media screen and (max-width: 480px) {
