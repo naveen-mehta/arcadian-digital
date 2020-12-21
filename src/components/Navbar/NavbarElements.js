@@ -28,7 +28,7 @@ export const NavLogo = styled(Link)`
     position: fixed;
     width: 246px;
     height: 101.76px;
-    left: 70px;
+    left: 40px;
 
     @media screen and (max-width: 480px) {
         width: 104px;
@@ -46,9 +46,9 @@ export const NavMenu = styled.div`
     align-items: center;
     padding: 0px;
     position: fixed;
-    width: 580px;
+    width: 605px;
     height: 48px;
-    right: 40px;
+    right: 45px;
 
     @media screen and (max-width: 480px) {
         display: none;
@@ -56,11 +56,11 @@ export const NavMenu = styled.div`
 
 `
 export const NavLink = styled(LinkScroll)`
-    padding-left: 94px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px; 
     color: #252B42;
     cursor: pointer;
+    margin: 0 57px;
 
     &.active {
         color: black;
