@@ -31,6 +31,9 @@ export const HeroText = styled.div`
         display: flex;
         justify-content: center;
         margin-top: 2%;
+        position: absolute;
+        left: 661px;
+        top: 48px;
 
         @media screen and (max-width: 480px) {
            font-size: 24px;   
@@ -53,6 +56,9 @@ export const HeroText = styled.div`
         text-align: center;
         margin: 0 15%;
         line-height: 80px;
+        position: absolute;
+        top: 124px;
+        left: 31px;
 
         @media screen and (max-width: 480px) {
            font-family: 'Montserrat', sans-serif;
@@ -86,6 +92,9 @@ export const HeroText = styled.div`
         letter-spacing: 0.2px;
         text-align: center;
         justify-content: center;
+        position: absolute;
+        top: 281px;
+        left: 445px;
 
         @media screen and (max-width: 480px) {
            font-family: 'Montserrat', sans-serif;
@@ -135,7 +144,7 @@ export const PhoneMockupTwo = styled.div`
     background-image: url(${PhoneImageTwo});
     background-size: 94%;    
     background-repeat: no-repeat;
-    top: 250px;
+    top: 564px;
     width: 302px;
     height: 613px;
     left: 710px;
