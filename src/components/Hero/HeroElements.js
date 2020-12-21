@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
     background-image: url(${HeroImage});
     background-size: 100%;    
     position: relative;
-    min-width: 102%;
+    width: 102%;
     height: 619px;
     background-repeat: no-repeat;
     left: -8px;
@@ -21,6 +21,11 @@ export const HeroContainer = styled.div`
     }
 `
 
+export const HeroContentContainer = styled.div`
+    margin: 0 auto;
+    width: 500px;
+`
+
 export const HeroText = styled.div`
     h3 {
         font-family: 'Montserrat', sans-serif;
@@ -30,10 +35,9 @@ export const HeroText = styled.div`
         font-weight: bold;
         display: flex;
         justify-content: center;
-        margin-top: 2%;
-        position: absolute;
-        left: 661px;
-        top: 48px;
+        position: relative;
+        left: 0px;
+        top: 75px;
 
         @media screen and (max-width: 480px) {
            font-size: 24px;   
@@ -55,9 +59,9 @@ export const HeroText = styled.div`
         justify-content: center;
         text-align: center;
         line-height: 80px;
-        position: absolute;
-        top: 87px;
-        left: 215px;
+        position: relative;
+        top: 57px;
+        left: -250px;
         width: 1000px;
 
         @media screen and (max-width: 480px) {
@@ -70,7 +74,7 @@ export const HeroText = styled.div`
            top: 18%;
            left: -25%;
            width: 115%;
-           position: absolute; 
+           position: relative; 
            color: #252B42;
            margin: 0;
         }
@@ -92,9 +96,10 @@ export const HeroText = styled.div`
         letter-spacing: 0.2px;
         text-align: center;
         justify-content: center;
-        position: absolute;
-        top: 281px;
-        left: 445px;
+        position: relative;
+        top: 45px;
+        left: -90px;
+        width: 700px;
 
         @media screen and (max-width: 480px) {
            font-family: 'Montserrat', sans-serif;
@@ -123,9 +128,9 @@ export const PhoneMockupOne = styled.div`
     background-repeat: no-repeat;  
     width: 295px;
     height: 613px;
-    position: absolute;
-    top: 456px;
-    left: 467px;
+    position: relative;
+    top: 50px;
+    left: 0px;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
@@ -144,10 +149,10 @@ export const PhoneMockupTwo = styled.div`
     background-image: url(${PhoneImageTwo});
     background-size: 94%;    
     background-repeat: no-repeat;
-    top: 564px;
+    top: -455px;
     width: 302px;
     height: 613px;
-    left: 710px;
+    left: 240px;
     position: relative;
 
     @media screen and (max-width: 480px) {
@@ -190,9 +195,9 @@ export const PlaystoreBtn = styled.button`
     height: 68px;
     justify-content: center;
     border: none;
-    position: absolute;
-    top: 404px;
-    left: 520px;
+    position: relative;
+    top: 68px;
+    left: 50px;
 
     @media screen and (max-width: 480px) {
         top: 68%;
@@ -228,9 +233,9 @@ export const AppstoreBtn = styled.button`
     width: 236px;
     height: 68px;
     justify-content: center;
-    position: absolute;
-    top: 404px;
-    left: 777px;
+    position: relative;
+    top: 68px;
+    left: 70px;
 
     @media screen and (max-width: 480px) {
         top: 81%;
