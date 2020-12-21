@@ -225,11 +225,11 @@ export const PhoneMockupFour = styled.div`
     z-index: 1;   
     background-size: 100%;    
     background-repeat: no-repeat;  
-    width: 30%;
-    height: 90%;
-    left: 58%;
+    width: 410px;
+    height: 570px;
+    left: 866px;
     position: absolute;
-    top: 349%;
+    top: 2259px;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
