@@ -2,11 +2,11 @@ import styled from 'styled-components'
 
 export const FooterContainer = styled.div`
     position: absolute;
-    top: 650%;
+    top: 4255px;
     display: flex;
     align-items: center;
-    width: 65%;
-    left: 20%;
+    width: 1090px;
+    left: 200px;
 
     @media screen and (max-width: 480px) {
         top: 1047%;
@@ -25,7 +25,7 @@ export const FooterLogo = styled.div`
 
 export const SocialMediaContainer = styled.div`
     display: flex;
-    margin: 0 15% 0 15%;
+    margin: 0 0 0 20%;
 `
 
 export const SocialMediaLink = styled.div`
@@ -33,7 +33,7 @@ export const SocialMediaLink = styled.div`
 `
 
 export const Copyright = styled.div`
-    margin-left: 11%;
+    margin-left: 29%;
 
     @media screen and (max-width: 480px) {
         margin: 5%;
