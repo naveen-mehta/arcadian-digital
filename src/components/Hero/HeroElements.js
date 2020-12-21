@@ -162,8 +162,8 @@ export const PhoneMockupTwo = styled.div`
 export const HorizontalRule = styled.div`
     position: absolute;
     width: 884px;
-    left: 23%;
-    top: 180%;
+    left: 280px;
+    top: 1220px;
     border: 1px solid #E4E4E4;
 
     @media screen and (max-width: 480px) {
