@@ -30,7 +30,7 @@ const ProductOverview = () => {
                 <ExploreVarietiesText>
                     <h3>Explore varieties</h3>
                     <h2>Shop for your favorites meal as e dey hot.</h2>
-                    <h4>Shop for your favorite meals or drinks and enjoy while doing it.</h4>
+                    <h4>Shop for your favorite meals or drinks <br/> and enjoy while doing it.</h4>
                 </ExploreVarietiesText>
                 <PhoneMockupFour />
             </ExploreVarietiesContainer>

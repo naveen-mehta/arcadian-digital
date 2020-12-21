@@ -147,9 +147,9 @@ export const ExploreVarietiesContainer = styled.div`
 
 export const ExploreVarietiesText = styled.div`
     position: absolute;
-    top: 372%;
-    left: 16%;
-    width: 40%;
+    top: 2400px;
+    left: 254px;
+    width: 550px;
 
     h3 {
         font-family: 'Montserrat', sans-serif;
