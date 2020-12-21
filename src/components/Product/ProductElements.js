@@ -3,6 +3,11 @@ import PhoneImageThree from '../../images/phone-mockup-3.png'
 import PhoneImageFour from '../../images/phone-mockup-4.png'
 import PhoneImageFive from '../../images/phone-mockup-5.png'
 
+export const ProductContainer = styled.div`
+    margin: 0 auto;
+    width: 800px;
+`
+
 export const ProductHeadline = styled.div`
     h1 {
         font-family: 'Poppins', sans-serif;
@@ -10,10 +15,10 @@ export const ProductHeadline = styled.div`
         color: #000000;
         letter-spacing: 0.1px;
         opacity: 0.8;
+        position: relative;
+        top: 630px;
+        left: 180px;
     }
-    position: absolute;
-    top: 1407px;
-    left: 495px;
 
     @media screen and (max-width: 480px) {
         top: 240%;
@@ -40,11 +45,10 @@ export const CreateAccountContainer = styled.div`
 `
 
 export const CreateAccountText = styled.div`
-    position: absolute;
-    top: 1756px;
-    left: 720px;
+    position: relative;
+    top: 856px;
+    left: 0px;
     
-
     h3 {
         font-family: 'Montserrat', sans-serif;
         font-size: 24px; 
@@ -125,9 +129,9 @@ export const PhoneMockupThree = styled.div`
     background-repeat: no-repeat;  
     width: 410px;
     height: 570px;
-    left: 188px;
-    position: absolute;
-    top: 1602px;
+    left: -130px;
+    position: relative;
+    top: 702px;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
@@ -146,9 +150,9 @@ export const ExploreVarietiesContainer = styled.div`
 `
 
 export const ExploreVarietiesText = styled.div`
-    position: absolute;
-    top: 2400px;
-    left: 254px;
+    position: relative;
+    top: 929px;
+    left: -59px;
     width: 550px;
 
     h3 {
@@ -159,7 +163,7 @@ export const ExploreVarietiesText = styled.div`
         line-height: 36px;
         font-weight: bold;
         letter-spacing: 0.1px;
-        position: absolute;
+        position: relative;
         top: 17px;
 
         @media screen and (max-width: 480px) {
@@ -181,8 +185,8 @@ export const ExploreVarietiesText = styled.div`
         line-height: 57px;
         font-weight: bold;
         letter-spacing: 0.2px;
-        position: absolute;
-        top: 60px;
+        position: relative;
+        top: 0px;
 
         @media screen and (max-width: 480px) {
             font-size: 55px;
@@ -206,8 +210,8 @@ export const ExploreVarietiesText = styled.div`
         line-height: 38px;
         font-weight: 500;
         letter-spacing: 0.2px;
-        position: absolute;
-        top: 204px;
+        position: relative;
+        top: 0px;
 
         @media screen and (max-width: 480px) {
             font-size: 35px;
@@ -233,9 +237,9 @@ export const PhoneMockupFour = styled.div`
     background-repeat: no-repeat;  
     width: 410px;
     height: 570px;
-    left: 866px;
-    position: absolute;
-    top: 2259px;
+    left: 0px;
+    position: relative;
+    top: 792px;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
@@ -254,9 +258,9 @@ export const CheckoutContainer = styled.div`
 `
 
 export const CheckoutText = styled.div`
-    position: absolute;
-    top: 3116px;
-    left: 720px;  
+    position: relative;
+    top: 1016px;
+    left: 0px;  
     width: 550px;  
 
     h3 {
@@ -267,8 +271,8 @@ export const CheckoutText = styled.div`
         line-height: 36px;
         font-weight: bold;
         letter-spacing: 0.1px;
-        position: absolute;
-        top: 29px;
+        position: relative;
+        top: 89px;
 
         @media screen and (max-width: 480px) {
             font-size: 35px;
@@ -289,7 +293,7 @@ export const CheckoutText = styled.div`
         line-height: 57px;
         font-weight: bold;
         letter-spacing: 0.2px;
-        position: absolute;
+        position: relative;
         top: 72px;
 
         @media screen and (max-width: 480px) {
@@ -314,8 +318,8 @@ export const CheckoutText = styled.div`
         line-height: 38px;
         font-weight: 500;
         letter-spacing: 0.2px;
-        position: absolute;
-        top: 215px;
+        position: relative;
+        top: 68px;
 
         @media screen and (max-width: 480px) {
             font-size: 35px;
@@ -341,9 +345,9 @@ export const PhoneMockupFive = styled.div`
     background-repeat: no-repeat;  
     width: 410px;
     height: 570px;
-    left: 188px;
-    position: absolute;
-    top: 2990px;
+    left: -124px;
+    position: relative;
+    top: 950px;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
