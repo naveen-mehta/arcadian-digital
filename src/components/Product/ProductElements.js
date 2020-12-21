@@ -159,6 +159,8 @@ export const ExploreVarietiesText = styled.div`
         line-height: 36px;
         font-weight: bold;
         letter-spacing: 0.1px;
+        position: absolute;
+        top: 17px;
 
         @media screen and (max-width: 480px) {
             font-size: 35px;
@@ -179,6 +181,8 @@ export const ExploreVarietiesText = styled.div`
         line-height: 57px;
         font-weight: bold;
         letter-spacing: 0.2px;
+        position: absolute;
+        top: 60px;
 
         @media screen and (max-width: 480px) {
             font-size: 55px;
@@ -202,6 +206,8 @@ export const ExploreVarietiesText = styled.div`
         line-height: 38px;
         font-weight: 500;
         letter-spacing: 0.2px;
+        position: absolute;
+        top: 204px;
 
         @media screen and (max-width: 480px) {
             font-size: 35px;
@@ -327,11 +333,11 @@ export const PhoneMockupFive = styled.div`
     z-index: 1;   
     background-size: 100%;    
     background-repeat: no-repeat;  
-    width: 30%;
-    height: 90%;
-    margin-left: 13%;
+    width: 410px;
+    height: 570px;
+    left: 188px;
     position: absolute;
-    top: 457%;
+    top: 2990px;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
