@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
     background-image: url(${HeroImage});
     background-size: 100%;    
     position: relative;
-    width: 102%;
+    min-width: 102%;
     height: 619px;
     background-repeat: no-repeat;
     left: -8px;
@@ -54,11 +54,10 @@ export const HeroText = styled.div`
         display: flex;
         justify-content: center;
         text-align: center;
-        margin: 0 15%;
         line-height: 80px;
         position: absolute;
-        top: 124px;
-        left: 31px;
+        top: 87px;
+        left: 251px;
 
         @media screen and (max-width: 480px) {
            font-family: 'Montserrat', sans-serif;
