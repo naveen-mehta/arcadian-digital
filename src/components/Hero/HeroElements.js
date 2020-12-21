@@ -182,8 +182,8 @@ export const PlaystoreBtn = styled.button`
     justify-content: center;
     border: none;
     position: absolute;
-    top: 50%;
-    left: 35%;
+    top: 404px;
+    left: 520px;
 
     @media screen and (max-width: 480px) {
         top: 68%;
@@ -220,8 +220,8 @@ export const AppstoreBtn = styled.button`
     height: 68px;
     justify-content: center;
     position: absolute;
-    top: 50%;
-    left: 52%;
+    top: 404px;
+    left: 777px;
 
     @media screen and (max-width: 480px) {
         top: 81%;
