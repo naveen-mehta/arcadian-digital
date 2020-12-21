@@ -72,7 +72,9 @@ export const CreateAccountText = styled.div`
         line-height: 57px;
         font-weight: bold;
         letter-spacing: 0.2px;
-        margin-top: -9px;
+        position: absolute;
+        top: 42px;
+        width: 575px;
 
         @media screen and (max-width: 480px) {
             font-size: 55px;
@@ -98,6 +100,9 @@ export const CreateAccountText = styled.div`
         line-height: 38px;
         font-weight: 500;
         letter-spacing: 0.2px;
+        position: absolute;
+        top: 185px;
+        width: 575px;
 
         @media screen and (max-width: 480px) {
             font-size: 35px;
