@@ -6,13 +6,13 @@ import PhoneImageTwo from '../../images/phone-mockup-2.png'
 export const HeroContainer = styled.div`
     background-image: url(${HeroImage});
     background-size: 100%;    
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    position: relative;
+    width: 102%;
+    height: 619px;
     background-repeat: no-repeat;
-    left: 0;
+    left: -8px;
     z-index: -555;
-    top: 22%;
+    margin-top: 157px;
 
     @media screen and (max-width: 480px) {
        background-image: none;
