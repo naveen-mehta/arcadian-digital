@@ -1,12 +1,17 @@
 import styled from 'styled-components'
 
-export const FooterContainer = styled.div`
-    position: absolute;
-    top: 4255px;
+export const FooterOuterContainer = styled.div`
+    margin: 0 auto;
+    width: 1000px;
+`
+
+export const FooterInnerContainer = styled.div`
+    position: relative;
+    top: 1100px;
     display: flex;
     align-items: center;
     width: 1090px;
-    left: 200px;
+    left: 0px;
 
     @media screen and (max-width: 480px) {
         top: 1047%;
@@ -25,7 +30,7 @@ export const FooterLogo = styled.div`
 
 export const SocialMediaContainer = styled.div`
     display: flex;
-    margin: 0 0 0 20%;
+    margin: 0 0 0 19%;
 `
 
 export const SocialMediaLink = styled.div`
@@ -33,7 +38,9 @@ export const SocialMediaLink = styled.div`
 `
 
 export const Copyright = styled.div`
-    margin-left: 29%;
+    margin-left: 32%;
+    color: #5C5C5C;
+    font-size: 13px;
 
     @media screen and (max-width: 480px) {
         margin: 5%;
