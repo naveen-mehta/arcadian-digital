@@ -255,9 +255,9 @@ export const CheckoutContainer = styled.div`
 
 export const CheckoutText = styled.div`
     position: absolute;
-    top: 480%;
-    left: 51%;
-    width: 40%;
+    top: 3116px;
+    left: 720px;  
+    width: 550px;  
 
     h3 {
         font-family: 'Montserrat', sans-serif;
@@ -267,6 +267,8 @@ export const CheckoutText = styled.div`
         line-height: 36px;
         font-weight: bold;
         letter-spacing: 0.1px;
+        position: absolute;
+        top: 29px;
 
         @media screen and (max-width: 480px) {
             font-size: 35px;
@@ -287,6 +289,8 @@ export const CheckoutText = styled.div`
         line-height: 57px;
         font-weight: bold;
         letter-spacing: 0.2px;
+        position: absolute;
+        top: 72px;
 
         @media screen and (max-width: 480px) {
             font-size: 55px;
@@ -310,6 +314,8 @@ export const CheckoutText = styled.div`
         line-height: 38px;
         font-weight: 500;
         letter-spacing: 0.2px;
+        position: absolute;
+        top: 215px;
 
         @media screen and (max-width: 480px) {
             font-size: 35px;
