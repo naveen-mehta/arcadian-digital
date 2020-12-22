@@ -18,6 +18,7 @@ export const HeroContainer = styled.div`
        background-image: none;
        width: 100%;
        left: 0;
+       padding-top: 150px;
     }
 `
 
@@ -103,7 +104,7 @@ export const HeroText = styled.div`
            font-size: 23px;   
            color: #737373;
            line-height: 38px; 
-           top: 38px;
+           top: 201px;
            left: 10px;
            width: 95%;
            position: absolute; 
@@ -113,9 +114,12 @@ export const HeroText = styled.div`
            left: 17px;
            top: 40px;
         }
-        @media screen and (max-width: 350px) {
-           top: 70px;
+        @media screen and (max-width: 380px) {
+           top: 200px;
            line-height: 34px;
+        }
+        @media screen and (max-width: 350px) {
+           top: 240px;
         }
     }
 `

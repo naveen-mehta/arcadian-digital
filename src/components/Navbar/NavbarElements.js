@@ -3,7 +3,7 @@ import { NavLink as Link } from 'react-router-dom'
 import { Link as LinkScroll } from 'react-scroll'
 
 export const Nav = styled.nav`
-    z-index: 1;
+    z-index: ${({ isOpen }) => (isOpen ? '1' : '999')};
     position: fixed;
     left: 0;
     top: 0;
@@ -15,8 +15,10 @@ export const Nav = styled.nav`
     background-color: white;
 
     @media screen and (max-width: 480px) {
-        position: sticky;
-        z-index: -555;
+        z-index: 1;
+        margin-bottom: 100px; 
+        height: 100px;
+        padding-bottom: 10px;
     }
 `
 

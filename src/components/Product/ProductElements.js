@@ -117,7 +117,6 @@ export const CreateAccountText = styled.div`
 `
 export const PhoneMockupThree = styled.div`
     background-image: url(${PhoneImageThree});
-    z-index: 1;   
     background-size: 100%;    
     background-repeat: no-repeat;  
     width: 410px;
@@ -208,8 +207,7 @@ export const ExploreVarietiesText = styled.div`
 `
 
 export const PhoneMockupFour = styled.div`
-    background-image: url(${PhoneImageFour});
-    z-index: 1;   
+    background-image: url(${PhoneImageFour}); 
     background-size: 100%;    
     background-repeat: no-repeat;  
     width: 410px;
@@ -287,8 +285,7 @@ export const CheckoutText = styled.div`
 `
 
 export const PhoneMockupFive = styled.div`
-    background-image: url(${PhoneImageFive});
-    z-index: 1;   
+    background-image: url(${PhoneImageFive});  
     background-size: 100%;    
     background-repeat: no-repeat;  
     width: 410px;

@@ -7,19 +7,6 @@ import Download from './components/Download'
 import Footer from './components/Footer'
 import { useState } from 'react'
 
-// function App() {
-//   return (
-//     <Router>
-//       <Route path='/' component={Navbar} exact/>
-//       <Route path='/' component={Drawer} exact/>
-//       <Route component={Hero} />
-//       <Route component={ProductOverview} />
-//       <Route component={Download} />
-//       <Route component={Footer} />
-//     </Router>
-//   );
-// }
-
 function App() {
 
   const [isOpen, setIsOpen] = useState(false)
@@ -35,6 +22,7 @@ function App() {
       <Hero />
       <ProductOverview />
       <Download />
+      <Footer />
     </div>
   );
 }
