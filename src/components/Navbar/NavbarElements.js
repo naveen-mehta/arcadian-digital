@@ -1,5 +1,4 @@
-import styled from 'styled-components'
-import { NavLink as Link } from 'react-router-dom' 
+import styled from 'styled-components' 
 import { Link as LinkScroll } from 'react-scroll'
 
 export const Nav = styled.nav`
