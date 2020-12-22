@@ -136,6 +136,10 @@ export const PhoneMockupThree = styled.div`
 export const ExploreVarietiesContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;  
+    
+    @media screen and (max-width: 480px) {
+        width: 200px;
+    }
 `
 
 export const ExploreVarietiesText = styled.div`
@@ -143,6 +147,12 @@ export const ExploreVarietiesText = styled.div`
     top: 929px;
     left: -59px;
     width: 550px;
+
+    @media screen and (max-width: 480px) {
+        width: 300px;
+        left: 42px;
+        top: 945px;
+    }
 
     h3 {
         font-family: 'Montserrat', sans-serif;
@@ -156,11 +166,7 @@ export const ExploreVarietiesText = styled.div`
         top: 17px;
 
         @media screen and (max-width: 480px) {
-            font-size: 35px;
-            width: 200%;
-            position: absolute;
-            left: 49%;
-            margin-top: 500%;
+            width: 90%;
         }
         @media screen and (max-width: 400px) {
             font-size: 27px;
@@ -178,17 +184,8 @@ export const ExploreVarietiesText = styled.div`
         top: 0px;
 
         @media screen and (max-width: 480px) {
-            font-size: 55px;
-            width: 280%;
-            position: absolute;
-            left: 0%;
-            margin-top: 570%;
-            text-align: center;
-            line-height: 75px;
-        }
-        @media screen and (max-width: 400px) {
-            font-size: 40px;
-            line-height: 57px;
+            top: 20px;
+            left: -32px;
         }
     }
     h4 {
@@ -203,13 +200,9 @@ export const ExploreVarietiesText = styled.div`
         top: 0px;
 
         @media screen and (max-width: 480px) {
-            font-size: 35px;
-            width: 200%;
-            position: absolute;
-            margin-top: 720%;
-            left: 35%;
+            top: 40px;
+            left: -45px;
             text-align: center;
-            line-height: 55px;
         }
         @media screen and (max-width: 400px) {
             font-size: 27px;
@@ -232,12 +225,8 @@ export const PhoneMockupFour = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        width: 110%;
-        top: 580%;
-        left: 15%;
-        height: 107%; 
-        background-size: 110%;
-        background-position: center;      
+        top: 1425px;
+        left: -355px;
     }
 `
 

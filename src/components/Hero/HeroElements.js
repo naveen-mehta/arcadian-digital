@@ -178,9 +178,9 @@ export const HorizontalRule = styled.div`
     border: 1px solid #E4E4E4;
 
     @media screen and (max-width: 480px) {
-        top: 210%;
-        width: 100%;
-        left: -15%;
+        top: -80px;
+        width: 85%;
+        left: -175px;
     }
 `
 
