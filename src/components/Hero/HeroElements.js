@@ -136,6 +136,12 @@ export const PhoneMockupOne = styled.div`
         left: -160px;
         filter: none;
     }
+    @media screen and (max-width: 413px) {
+        width: 40%;
+        top: 120px;
+        height: 410px;
+        left: -125px;
+    }
 `
 
 export const PhoneMockupTwo = styled.div`
@@ -149,12 +155,15 @@ export const PhoneMockupTwo = styled.div`
     position: relative;
 
     @media screen and (max-width: 480px) {
-        top: 112%;
-        width: 65%;
-        left: 30%;
-        height: 100%;
-        background-size: 100%;
-        background-position: center;
+        width: 46%;
+        top: -270px;
+        height: 410px;
+        left: 22px;
+    }
+    @media screen and (max-width: 413px) {
+        width: 38%;
+        top: -215px;
+        left: 45px;
     }
 `
 
