@@ -111,8 +111,11 @@ export const HeroText = styled.div`
         @media screen and (max-width: 413px) {
            font-size: 22px;
            line-height: 35px;
-           left: -97px;
-           width: 94%;
+           left: -125px;
+           width: 88%;
+        }
+        @media screen and (max-width: 340px) {
+            left: -93px;
         }
     }
 `

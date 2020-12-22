@@ -55,6 +55,7 @@ export const CreateAccountText = styled.div`
     @media screen and (max-width: 480px) {
         top: 400px;
         width: 300px;
+        left: -410px;
     }
 
     h3 {
@@ -127,12 +128,8 @@ export const PhoneMockupThree = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        width: 110%;
-        top: 370%;
-        left: 3%;
-        height: 110%;  
-        background-size: 110%;
-        background-position: center;    
+        top: 930px;
+        left: -55px;
     }
 `
 
