@@ -14,7 +14,6 @@ export const FooterInnerContainer = styled.div`
     left: 0px;
 
     @media screen and (max-width: 480px) {
-        top: 1047%;
         width: 100%;
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;    

@@ -6,6 +6,10 @@ import PhoneImageFive from '../../images/phone-mockup-5.png'
 export const ProductContainer = styled.div`
     margin: 0 auto;
     width: 800px;
+
+    @media screen and (max-width: 480px) {
+        width: 300px;
+    }
 `
 
 export const ProductHeadline = styled.div`
@@ -21,14 +25,13 @@ export const ProductHeadline = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        top: 240%;
-        width: 100%; 
-        left: 30%;
 
         h1 {
-            font-size: 36px;
+            font-size: 25px;
             letter-spacing: 0.2px;
             opacity: 0.8;
+            top: 310px;
+            left: 26px;
         }
     }
     @media screen and (max-width: 400px) {
@@ -49,6 +52,11 @@ export const CreateAccountText = styled.div`
     top: 856px;
     left: 0px;
     
+    @media screen and (max-width: 480px) {
+        top: 400px;
+        width: 300px;
+    }
+
     h3 {
         font-family: 'Montserrat', sans-serif;
         font-size: 24px; 
@@ -59,13 +67,9 @@ export const CreateAccountText = styled.div`
         letter-spacing: 0.1px;
 
         @media screen and (max-width: 480px) {
-            font-size: 35px;
-            width: 220%;
-            position: absolute;
-            left: -46%;
-        }
-        @media screen and (max-width: 400px) {
-            font-size: 27px;
+            width: 90%;
+            margin-left: 35px;
+            margin-top: 4px;
         }
     }
     h2 {
@@ -81,19 +85,11 @@ export const CreateAccountText = styled.div`
         width: 575px;
 
         @media screen and (max-width: 480px) {
-            font-size: 55px;
-            width: 300%;
-            position: absolute;
-            left: -93%;
-            margin-top: 80%;
+            width: 370px;
+            position: relative;
+            margin-top: -25px;
             text-align: center;
-            line-height: 75px;
-        }
-        @media screen and (max-width: 400px) {
-            font-size: 40px;
-            left: -98%;
-            width: 290%;
-            line-height: 57px;
+            margin-left: -30px;
         }
     }
     h4 {
@@ -109,16 +105,12 @@ export const CreateAccountText = styled.div`
         width: 575px;
 
         @media screen and (max-width: 480px) {
-            font-size: 35px;
-            width: 200%;
-            margin-top: 270%;
-            position: absolute;
-            left: -48%;
             text-align: center;
-            line-height: 55px;
-        }
-        @media screen and (max-width: 400px) {
-            font-size: 27px;
+            line-height: 40px;
+            width: 280px;
+            position: relative;
+            margin-top: -130px;
+            margin-left: 10px;
         }
     }
 `

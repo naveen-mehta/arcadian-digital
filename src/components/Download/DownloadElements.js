@@ -14,7 +14,6 @@ export const DownloadContainer = styled.div`
     @media screen and (max-width: 480px) {
         background-image: none;
         background-color: #252B42;
-        top: 940%;
         width: 140vw;
     }
 `
