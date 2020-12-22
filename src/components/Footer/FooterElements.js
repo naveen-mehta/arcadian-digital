@@ -3,6 +3,13 @@ import styled from 'styled-components'
 export const FooterOuterContainer = styled.div`
     margin: 0 auto;
     width: 1000px;
+
+    @media screen and (max-width: 480px) {
+        margin-top: 710px;
+        text-align: center;
+        width: 250px;
+        padding-right: 23px;    
+    }
 `
 
 export const FooterInnerContainer = styled.div`
@@ -30,6 +37,10 @@ export const FooterLogo = styled.div`
 export const SocialMediaContainer = styled.div`
     display: flex;
     margin: 0 0 0 19%;
+
+    @media screen and (max-width: 480px) {
+        margin-left: 0;
+    }
 `
 
 export const SocialMediaLink = styled.div`

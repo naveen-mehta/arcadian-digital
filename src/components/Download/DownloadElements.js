@@ -14,7 +14,7 @@ export const DownloadContainer = styled.div`
     @media screen and (max-width: 480px) {
         background-image: none;
         background-color: #252B42;
-        top: 2890px;
+        top: 1755px;
         height: 565px;
     }
 `
@@ -42,9 +42,12 @@ export const DownloadText = styled.div`
 
         @media screen and (max-width: 480px) {
             margin-top: 25%;
+            width: 300px;
+            margin-left: 40px;
         }
         @media screen and (max-width: 400px) {
-            font-size: 32px;
+            font-size: 24px;
+            width: 200px;
         }
     }
     h4 {
@@ -57,16 +60,19 @@ export const DownloadText = styled.div`
         top: 128px;
         left: -11px;
         width: 850px;
+        color: #BDBDBD;
 
         @media screen and (max-width: 480px) {
-            width: 60%;
-            margin-left: 20%;
-            line-height: 43px;
+            width: 300px;
+            margin-left: 60px;
+            top: 135px;
+            line-height: 35px;
+            font-size: 22px;
             text-align: center;
         }
         @media screen and (max-width: 400px) {
-            font-size: 22px;
-            line-height: 38px;
+            font-size: 20px;
+            width: 200px;
         }
     }
 `
@@ -79,11 +85,8 @@ export const DownloadBtnContainer = styled.div`
     left: -336px;
 
     @media screen and (max-width: 480px) {
-        width: 80%;
-        margin: 17% 10%;
-    }
-    @media screen and (max-width: 400px) {
-        margin: 0 6%;
+        width: 20%;
+        left: 30px;
     }
 `
 
@@ -102,7 +105,10 @@ export const DownloadPlaystoreBtn = styled.button`
     left: 577px;
 
     @media screen and (max-width: 480px) {
-        margin-left: 20%;
+        left: 0;
+    }
+    @media screen and (max-width: 400px) {
+        width: 110px;
     }
 
     h3 {
@@ -140,4 +146,11 @@ export const DownloadAppstoreBtn = styled.button`
         letter-spacing: 0.2px;
         color: #FFFFFF;
     }    
+
+    @media screen and (max-width: 480px) {
+        left: 23px;
+    }
+    @media screen and (max-width: 400px) {
+        width: 110px;
+    }
 `
