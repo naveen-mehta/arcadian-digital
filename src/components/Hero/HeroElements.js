@@ -16,14 +16,19 @@ export const HeroContainer = styled.div`
 
     @media screen and (max-width: 480px) {
        background-image: none;
-       left: 40%;
        width: 100%;
+       left: 0;
     }
 `
 
 export const HeroContentContainer = styled.div`
     margin: 0 auto;
     width: 500px;
+
+    @media screen and (max-width: 480px) {
+       width: 100%;
+       left: 0;
+    }
 `
 
 export const HeroText = styled.div`
@@ -43,7 +48,6 @@ export const HeroText = styled.div`
            font-size: 16px;   
            color: #737373;
            top: -155px;
-           left: -210px;
         }
     }
 
@@ -67,10 +71,9 @@ export const HeroText = styled.div`
            line-height: 43px; 
            letter-spacing: 0.2px;
            top: -152px;
-           left: -210px;
-           width: 80%;
+           left: 5px; 
+           width: 95%;
            position: relative; 
-           color: #252B42;
            margin: 0 auto;
         }
 
@@ -103,19 +106,10 @@ export const HeroText = styled.div`
            color: #737373;
            line-height: 38px; 
            top: 38px;
-           left: -151px;
+           left: 10px;
            width: 95%;
            position: absolute; 
            margin: 0;
-        }
-        @media screen and (max-width: 413px) {
-           font-size: 22px;
-           line-height: 35px;
-           left: -125px;
-           width: 88%;
-        }
-        @media screen and (max-width: 340px) {
-            left: -93px;
         }
     }
 `
@@ -133,17 +127,16 @@ export const PhoneMockupOne = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        width: 44%;
+        width: 56%;
         top: 95px;
         height: 450px;
-        left: -160px;
+        left: 0;
         filter: none;
     }
     @media screen and (max-width: 413px) {
         width: 40%;
         top: 120px;
         height: 410px;
-        left: -125px;
     }
 `
 
@@ -158,10 +151,10 @@ export const PhoneMockupTwo = styled.div`
     position: relative;
 
     @media screen and (max-width: 480px) {
-        width: 46%;
+        width: 58%;
         top: -270px;
         height: 410px;
-        left: 22px;
+        left: 180px;
     }
     @media screen and (max-width: 413px) {
         width: 38%;
@@ -179,8 +172,8 @@ export const HorizontalRule = styled.div`
 
     @media screen and (max-width: 480px) {
         top: -80px;
-        width: 85%;
-        left: -175px;
+        width: 100%;
+        left: 4px;
     }
 `
 
@@ -206,7 +199,7 @@ export const PlaystoreBtn = styled.button`
 
     @media screen and (max-width: 480px) {
         margin: 0 auto;
-        left: -85px;
+        left: 80px;
         top: 0px;   
     }
 
@@ -218,10 +211,6 @@ export const PlaystoreBtn = styled.button`
         line-height: 36px;
         letter-spacing: 0.1px;
         color: #FFFFFF;
-
-        @media screen and (max-width: 480px) {
-            font-size: 32px;
-        }
     }    
 `
 
@@ -243,7 +232,7 @@ export const AppstoreBtn = styled.button`
 
     @media screen and (max-width: 480px) {
         border: 1px solid #FA4A0C;
-        left: -330px;
+        left: -157px;
         margin-top: 15px;
     }
 
@@ -257,7 +246,6 @@ export const AppstoreBtn = styled.button`
         color: #FFFFFF;
 
         @media screen and (max-width: 480px) {
-            font-size: 32px;
             color: #FA4A0C;
         }
     }    

@@ -14,14 +14,20 @@ export const DownloadContainer = styled.div`
     @media screen and (max-width: 480px) {
         background-image: none;
         background-color: #252B42;
-        top: 1755px;
+        top: 1860px;
         height: 565px;
+        width: 102vw;
+        left: -8px;
     }
 `
 
 export const DownloadContentContainer = styled.div`
     margin: 0 auto;
     width: 800px;
+
+    @media screen and (max-width: 480px) {
+        width: 300px;
+    }
 `
 
 export const DownloadText = styled.div`
@@ -41,9 +47,10 @@ export const DownloadText = styled.div`
         left: 5px;
 
         @media screen and (max-width: 480px) {
-            margin-top: 25%;
+            margin-top: 27%;
             width: 300px;
-            margin-left: 40px;
+            margin-left: -8px;
+            top: 100px;
         }
         @media screen and (max-width: 400px) {
             font-size: 24px;
@@ -64,8 +71,8 @@ export const DownloadText = styled.div`
 
         @media screen and (max-width: 480px) {
             width: 300px;
-            margin-left: 60px;
-            top: 135px;
+            margin-left: 8px;
+            top: 125px;
             line-height: 35px;
             font-size: 22px;
             text-align: center;
@@ -86,7 +93,7 @@ export const DownloadBtnContainer = styled.div`
 
     @media screen and (max-width: 480px) {
         width: 20%;
-        left: 30px;
+        left: 0;
     }
 `
 
@@ -149,6 +156,9 @@ export const DownloadAppstoreBtn = styled.button`
 
     @media screen and (max-width: 480px) {
         left: 23px;
+        width: 135px;
+        top: 0;
+        height: 62px;
     }
     @media screen and (max-width: 400px) {
         width: 110px;

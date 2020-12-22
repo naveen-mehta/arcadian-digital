@@ -5,7 +5,7 @@ export const FooterOuterContainer = styled.div`
     width: 1000px;
 
     @media screen and (max-width: 480px) {
-        margin-top: 710px;
+        margin-top: 790px;
         text-align: center;
         width: 250px;
         padding-right: 23px;    
