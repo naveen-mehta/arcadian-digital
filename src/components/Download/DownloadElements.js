@@ -19,6 +19,10 @@ export const DownloadContainer = styled.div`
         width: 102vw;
         left: -8px;
     }
+    @media screen and (max-width: 400px) {
+        left: -8px;
+        width: 104vw;
+    }
 `
 
 export const DownloadContentContainer = styled.div`
@@ -55,6 +59,7 @@ export const DownloadText = styled.div`
         @media screen and (max-width: 400px) {
             font-size: 24px;
             width: 200px;
+            left: 60px;
         }
     }
     h4 {
@@ -80,6 +85,7 @@ export const DownloadText = styled.div`
         @media screen and (max-width: 400px) {
             font-size: 20px;
             width: 200px;
+            left: 40px;
         }
     }
 `
@@ -94,6 +100,9 @@ export const DownloadBtnContainer = styled.div`
     @media screen and (max-width: 480px) {
         width: 20%;
         left: 0;
+    }
+    @media screen and (max-width: 400px) {
+        left: 25px;
     }
 `
 

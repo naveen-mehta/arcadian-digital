@@ -56,4 +56,8 @@ export const Copyright = styled.div`
         margin: 5%;
         text-align: center;
     }
+    @media screen and (max-width: 400px) {
+        text-align: right;
+        padding-right: 11px;
+    }
 `

@@ -79,8 +79,6 @@ export const HeroText = styled.div`
 
         @media screen and (max-width: 413px) {
            font-size: 30px;
-           width: 70%;
-           left: -201px;
         }
     }
 
@@ -111,6 +109,14 @@ export const HeroText = styled.div`
            position: absolute; 
            margin: 0;
         }
+        @media screen and (max-width: 413px) {
+           left: 17px;
+           top: 40px;
+        }
+        @media screen and (max-width: 350px) {
+           top: 70px;
+           line-height: 34px;
+        }
     }
 `
 
@@ -134,9 +140,8 @@ export const PhoneMockupOne = styled.div`
         filter: none;
     }
     @media screen and (max-width: 413px) {
-        width: 40%;
-        top: 120px;
-        height: 410px;
+        left: 10px;
+        width: 59%;
     }
 `
 
@@ -155,11 +160,6 @@ export const PhoneMockupTwo = styled.div`
         top: -270px;
         height: 410px;
         left: 180px;
-    }
-    @media screen and (max-width: 413px) {
-        width: 38%;
-        top: -215px;
-        left: 45px;
     }
 `
 
@@ -202,6 +202,9 @@ export const PlaystoreBtn = styled.button`
         left: 80px;
         top: 0px;   
     }
+    @media screen and (max-width: 413px) {
+        left: 60px;
+    }
 
     h3 {
         font-family: Montserrat;
@@ -234,6 +237,9 @@ export const AppstoreBtn = styled.button`
         border: 1px solid #FA4A0C;
         left: -157px;
         margin-top: 15px;
+    }
+    @media screen and (max-width: 413px) {
+        left: -177px;
     }
 
     h3 {
