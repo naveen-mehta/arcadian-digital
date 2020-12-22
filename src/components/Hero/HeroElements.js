@@ -130,13 +130,10 @@ export const PhoneMockupOne = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        top: 100%;
-        width: 72%;
-        height: 105%;
-        left: -33%;
-        overflow: hidden;
-        background-size: 95%;
-        background-position: center;
+        width: 44%;
+        top: 95px;
+        height: 450px;
+        left: -160px;
         filter: none;
     }
 `
