@@ -1,13 +1,14 @@
 import React from 'react'
-import { Nav, NavLogo, NavMenu, NavLink } from './NavbarElements'
+import { Nav, NavLogo, NavMenu, NavLink, MobileMenu } from './NavbarElements'
 import logo from '../../images/logo.svg'
+import { FaBars } from 'react-icons/fa'
 
-const Navbar = () => {
+const Navbar = ({ toggle, isOpen }) => {
 
     return (
         <div>
             <Nav>
-                <NavLogo to="/">
+                <NavLogo>
                     <img src={logo} alt=""/>
                 </NavLogo>
                 <NavMenu>
@@ -52,6 +53,12 @@ const Navbar = () => {
                         Contact
                     </NavLink>
                 </NavMenu>
+                <MobileMenu 
+                    onClick={toggle} 
+                    isOpen={isOpen}
+                > 
+                        <FaBars />
+                </MobileMenu>
             </Nav>
         </div>       
     )

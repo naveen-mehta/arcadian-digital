@@ -3,7 +3,7 @@ import { NavLink as Link } from 'react-router-dom'
 import { Link as LinkScroll } from 'react-scroll'
 
 export const Nav = styled.nav`
-    z-index: 999;
+    z-index: 1;
     position: fixed;
     left: 0;
     top: 0;
@@ -20,7 +20,7 @@ export const Nav = styled.nav`
     }
 `
 
-export const NavLogo = styled(Link)`
+export const NavLogo = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,3 +74,25 @@ export const NavLink = styled(LinkScroll)`
         color: #FA4A0C;    
     }
 `
+export const MobileMenu = styled.div`
+    display: none;
+    transition: all 0.3s ease-in;
+
+    @media screen and (max-width: 768px) {
+        opacity: ${({ isOpen }) => (isOpen ? '0' : '100%')};
+        display: block;
+        cursor: pointer;
+        color: grey;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 1rem;
+        padding-right: 2rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        right: 20px;
+        padding: 0;
+        top: 40px;
+    }
+`;

@@ -17,8 +17,8 @@ export const DrawerContainer = styled.aside`
 
 export const DrawerCloseContainer = styled.div`
     position: absolute;
-    top: 1rem;
-    right: 2rem;
+    top: 50px;
+    right: 45px;
 `;
 
 export const DrawerCloseIcon = styled(FaTimes)`
@@ -30,18 +30,12 @@ export const DrawerWrapper = styled.ul`
     grid-template-columns: 1fr;
     grid-template-rows: repeat(14, 70px);
     text-align: center;
-    align-items: center;
-    margin-top: 5rem;
+    margin-right: 40px;
+    padding-top: 100px;
     transition: all 0.4s ease-in-out;
+    justify-content: center;
 
     @media screen and (max-width: 480px) {
-        grid-template-rows: repeat(14, 50px);
-        transition: all 0.3s ease-in-out;
-        
-    }
-
-    @media screen and (min-width: 768px) {
-        display: none;
         grid-template-rows: repeat(14, 50px);
         transition: all 0.3s ease-in-out;
     }
