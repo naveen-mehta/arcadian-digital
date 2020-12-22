@@ -233,11 +233,11 @@ export const CheckoutContainer = styled.div`
 export const CheckoutText = styled.div`
     position: relative;
     top: 1016px;
-    left: -410px;  
     width: 550px;  
 
     @media screen and (max-width: 480px) {
         width: 300px;
+        left: -410px;  
         top: 1352px;
         text-align: center;
     }
