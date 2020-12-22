@@ -40,14 +40,10 @@ export const HeroText = styled.div`
         top: 75px;
 
         @media screen and (max-width: 480px) {
-           font-size: 24px;   
+           font-size: 16px;   
            color: #737373;
-           top: 4%;
-           position: absolute;
-           left: 20%;
-        }
-        @media screen and (max-width: 400px) {
-            left: 15%;
+           top: -155px;
+           left: -210px;
         }
     }
 
@@ -65,23 +61,23 @@ export const HeroText = styled.div`
         width: 1000px;
 
         @media screen and (max-width: 480px) {
-           font-family: 'Montserrat', sans-serif;
            font-size: 36px;   
            color: #252B42;
            font-weight: bold;
-           line-height: 58px; 
+           line-height: 43px; 
            letter-spacing: 0.2px;
-           top: 18%;
-           left: -25%;
-           width: 115%;
+           top: -152px;
+           left: -210px;
+           width: 80%;
            position: relative; 
            color: #252B42;
-           margin: 0;
+           margin: 0 auto;
         }
 
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 413px) {
            font-size: 30px;
-           line-height: 48px;   
+           width: 70%;
+           left: -201px;
         }
     }
 
@@ -103,20 +99,20 @@ export const HeroText = styled.div`
 
         @media screen and (max-width: 480px) {
            font-family: 'Montserrat', sans-serif;
-           font-size: 28px;   
+           font-size: 23px;   
            color: #737373;
-           font-weight: 500;
-           line-height: 48px; 
-           top: 48%;
-           left: -21%;
-           width: 108%;
+           line-height: 38px; 
+           top: 38px;
+           left: -151px;
+           width: 95%;
            position: absolute; 
            margin: 0;
         }
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 413px) {
            font-size: 22px;
            line-height: 35px;
-           top: 52%;   
+           left: -97px;
+           width: 94%;
         }
     }
 `
@@ -200,10 +196,9 @@ export const PlaystoreBtn = styled.button`
     left: 50px;
 
     @media screen and (max-width: 480px) {
-        top: 68%;
-        width: 75%;
-        height: 11%;
-        left: -3%;
+        margin: 0 auto;
+        left: -85px;
+        top: 0px;   
     }
 
     h3 {
@@ -238,11 +233,9 @@ export const AppstoreBtn = styled.button`
     left: 70px;
 
     @media screen and (max-width: 480px) {
-        top: 81%;
-        width: 75%;
-        height: 11%;
-        left: -3.5%;
         border: 1px solid #FA4A0C;
+        left: -330px;
+        margin-top: 15px;
     }
 
     h3 {
