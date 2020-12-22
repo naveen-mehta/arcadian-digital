@@ -52,12 +52,14 @@ export const DrawerLink = styled(LinkScroll)`
     text-decoration: none;
     transition: 0.2s ease-in-out;
     font-size: 1rem;
-    text-decoration: none;
-    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px; 
+    color: #252B42;
     list-style: none;
-    padding: 0.7rem; 
+    padding: 30px; 
     justify-content: center;
-
+    border-bottom: 2px solid #FA4A0C;
+    
     &:hover {
         color: black;
         transition: 0.3 ease-in-out;

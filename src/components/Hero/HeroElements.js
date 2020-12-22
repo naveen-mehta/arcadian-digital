@@ -112,10 +112,9 @@ export const HeroText = styled.div`
         }
         @media screen and (max-width: 413px) {
            left: 17px;
-           top: 40px;
+           top: 200px;
         }
         @media screen and (max-width: 380px) {
-           top: 200px;
            line-height: 34px;
         }
         @media screen and (max-width: 350px) {
