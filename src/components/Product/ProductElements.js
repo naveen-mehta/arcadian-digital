@@ -204,11 +204,6 @@ export const ExploreVarietiesText = styled.div`
             left: -45px;
             text-align: center;
         }
-        @media screen and (max-width: 400px) {
-            font-size: 27px;
-            line-height: 38px;
-            margin-top: 790%;
-        }
     }
 `
 
@@ -232,14 +227,20 @@ export const PhoneMockupFour = styled.div`
 
 export const CheckoutContainer = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr;    
+    grid-template-columns: 1fr 1fr;   
 `
 
 export const CheckoutText = styled.div`
     position: relative;
     top: 1016px;
-    left: 0px;  
+    left: -410px;  
     width: 550px;  
+
+    @media screen and (max-width: 480px) {
+        width: 300px;
+        top: 1352px;
+        text-align: center;
+    }
 
     h3 {
         font-family: 'Montserrat', sans-serif;
@@ -251,17 +252,6 @@ export const CheckoutText = styled.div`
         letter-spacing: 0.1px;
         position: relative;
         top: 89px;
-
-        @media screen and (max-width: 480px) {
-            font-size: 35px;
-            width: 200%;
-            position: absolute;
-            left: -10%;
-            margin-top: 960%;
-        }
-        @media screen and (max-width: 400px) {
-            font-size: 27px;
-        }
     }
     h2 {
         font-family: 'Montserrat', sans-serif;
@@ -275,17 +265,7 @@ export const CheckoutText = styled.div`
         top: 72px;
 
         @media screen and (max-width: 480px) {
-            font-size: 55px;
-            width: 280%;
-            position: absolute;
-            left: -90%;
-            margin-top: 1020%;
-            text-align: center;
-            line-height: 75px;
-        }
-        @media screen and (max-width: 400px) {
-            font-size: 40px;
-            line-height: 57px;
+            top: 94px;
         }
     }
     h4 {
@@ -300,17 +280,7 @@ export const CheckoutText = styled.div`
         top: 68px;
 
         @media screen and (max-width: 480px) {
-            font-size: 35px;
-            width: 200%;
-            position: absolute;
-            margin-top: 1170%;
-            left: -55%;
-            text-align: center;
-            line-height: 55px;
-        }
-        @media screen and (max-width: 400px) {
-            font-size: 27px;
-            line-height: 38px;
+            top: 110px;
         }
     }
 
@@ -329,12 +299,8 @@ export const PhoneMockupFive = styled.div`
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 
     @media screen and (max-width: 480px) {
-        width: 120%;
-        top: 800%;
-        height: 110%;
-        left: -4%;    
-        background-size: 110%;
-        background-position: center;     
+        left: -55px;    
+        top: 1915px;
     }
 `
 
