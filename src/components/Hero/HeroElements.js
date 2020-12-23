@@ -11,7 +11,7 @@ export const HeroContainer = styled.div`
     height: 619px;
     background-repeat: no-repeat;
     left: -8px;
-    z-index: -555;
+    z-index: 1;
     margin-top: 157px;
 
     @media screen and (max-width: 480px) {
@@ -19,6 +19,7 @@ export const HeroContainer = styled.div`
        width: 100%;
        left: 0;
        padding-top: 150px;
+       z-index: -10;
     }
 `
 

@@ -3,7 +3,7 @@ import { FaTimes } from 'react-icons/fa'
 import { Link as LinkScroll } from 'react-scroll'
 
 export const DrawerContainer = styled.aside`
-    z-index: 1;
+    z-index: 0;
     width: 100%;
     height: 1000px;
     display: grid;
@@ -13,6 +13,11 @@ export const DrawerContainer = styled.aside`
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
     transition: all 0.5s ease-in-out;
+
+    @media screen and (max-width: 480px) {
+        z-index: 1;
+        transition: all 0.3s ease-in-out;
+    }
 `;
 
 export const DrawerCloseContainer = styled.div`
@@ -59,7 +64,7 @@ export const DrawerLink = styled(LinkScroll)`
     padding: 30px; 
     justify-content: center;
     border-bottom: 2px solid #FA4A0C;
-    
+
     &:hover {
         color: black;
         transition: 0.3 ease-in-out;
