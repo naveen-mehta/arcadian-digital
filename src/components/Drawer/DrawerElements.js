@@ -6,7 +6,7 @@ export const DrawerContainer = styled.aside`
     z-index: 0;
     width: 100%;
     height: 1000px;
-    display: grid;
+    display: none;
     background: white;
     justify-content: center;
     position: fixed;
@@ -16,6 +16,7 @@ export const DrawerContainer = styled.aside`
 
     @media screen and (max-width: 480px) {
         z-index: 1;
+        display: grid;
         transition: all 0.3s ease-in-out;
     }
 `;

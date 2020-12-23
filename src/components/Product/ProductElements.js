@@ -6,9 +6,11 @@ import PhoneImageFive from '../../images/phone-mockup-5.png'
 export const ProductContainer = styled.div`
     margin: 0 auto;
     width: 800px;
-
+    z-index: 1;
+    
     @media screen and (max-width: 480px) {
         width: 300px;
+        z-index: -10;
     }
 `
 
